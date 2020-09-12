@@ -1,5 +1,15 @@
 ﻿# KövetelménySpecifikáció
 
+## 1 Jelenlegi Helyzet Leírása
+  Az SZFM Egészségközpont és Wellnessziget rengeteg pihenési és egészségügyi szolgáltatásokat/lehetőségeket kínál a vendégeinek. Jelenleg három nagy szolgáltatási témánk közül válogathatnak az érdeklődők. 
+Ezek a következők: Egészség/Életmód, Edzés/Fitness, illetve a legtöbb vendéget érdeklő Pihenés és Wellness. Ezeket tovább bontva számos szolgáltatásunk van.  
+  **Egészség és Életmód** témában a legjobb szakemberek adnak tanácsadást egészségügy, étrend kiegészítés, helyes táplálkozással kapcsolatos témákban. Lehetőség van továbbá állapotfelmérést követő egyéni/személyreszabott tanácsadásra, az egyéb általános tanácsadások mellett. Az Egészségügyi ágazathoz tartozik az orvosi ügyelet is, amely ügyel a látogatók egészségére illetve szükség esetén képes beavatkozni.  
+  Az **Edzés és Fitness** részlegünk feladata a edzéssel, mozgással, sportolással és gyógytornával kapcsolatos szolgáltatások biztosítása. Jelenleg 15 SZFM személyi edzőnk van, akik minden nap edzéseket tartanak a 3 jól felszerelt edző termünkben. 3 torna termünkben hétvégente a fitness, karate és yoga foglalkozásokat tartunk. Ezekre szintén megvannak a saját edzőink/sensei-eink. Gyógytornára járók szintén a tornatermeket használják, illetve a fürdő körletünk medencéit. Ezek a foglalkozások tipikusan kímélő ugyanakkor megmozgató edzés elemekből állnak. Ezek mellett külön öltözőink és zuhanyzóink vannak, amelyek szabványosak és jól felszereltek. Az öltözőink mellett 2 szolárium is helyet kapott.  
+  A **Pihenés és Wellness** szolgáltatásaink széles skálát alkotnak. 
+A fürdőzni kívánó vendégeink rendelkezésére 2 termálvizes medence, egy 4x50-es úszómedence (amibe egy ritka Electrophorus electricus is úszik) , szauna, gőzkabin, kavics medence, hidegterápiás kamra áll. Lehetőség van szörfözésre is az erre speciálisan kialakított medencénkben is. Szépségápolás terén is kiemelkedő szolgáltatásaink vannak. Itt lehet említeni halpedikűrt és a masszázst, amelyet előszeretettel vesznek igénybe. Világszerte elismert gyógymód a sóterápia. Szerettük volna bevinni a szolgáltatásaink közé ezen gyógymód alkalmazását is, ezért is nyitottuk meg az erre alkalmas sóbarlangunkat. Cégünk állatbarát ezt mi sem mutatja jobban, mint a kávéházzal szemben lévő sósvízi akvárium és a teknős simogató, amely a kisgyerekek nagy kedvence.  Illetve, amely a leghasznosabb a kis állatkozmetika.
+Ezek mellett a gyerekkel érkező felnőttek is megtalálhatják a pihenés azon módjait, amilyet megérdemelnek. Ezért hoztuk létre a gyermekmegőrző - és játszóteret, ahol bátran hagyhatja játszani a gyermekét, miközben Ön wellnessezik. A gyermekek biztonságáról a gyermekfelügyeletünk gondoskodik.  
+  Az egyéb szolgáltatásaink közé tartozik a saját boltunk, ahol különböző termékeket lehet vásárolni. Pl.: logóval ellátott pólók különböző méretekben, vitaminok, teák, sport készítmények, sportitalok stb. Illetve a szuvenír boltunk, ahol úszógumikat, játékokat, saját névvel/képekkel ellátott termékeket lehet megvásárolni. 6000 Ft feletti vásárlás esetén házhoz is szállítunk.
+
 ## 4 Jelenlegi Üzleti Folyamatok Modellje
 
 ### 4.1 Regisztráció
