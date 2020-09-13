@@ -17,6 +17,13 @@ Ezek mellett a gyerekkel érkező felnőttek is megtalálhatják a pihenés azon
 &nbsp;&nbsp;&nbsp;&nbsp;A megjelenés ne változzon a különböző webböngészőkkel való megjelenítés során.
 Az adatokat biztonságosan, adatbázisban lehessen tárolni, a weboldalnak platform függetlennek kell lennie és mobil barátnak. 
 
+## 3 A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása. 
++ **3.1** Törvények és Rendeletek:
+    + Felhasználói adatokra vonatkozó törvények
+        + [https://europa.eu/youreurope/citizens/consumers/internet-telecoms/data-protection-online-privacy/index_hu.htm](https://europa.eu/youreurope/citizens/consumers/internet-telecoms/data-protection-online-privacy/index_hu.htm)
+    + Sütikre (cookie-k) vonatkozó szabályozások
+        + [https://nav.gov.hu/data/cms483474/Cookie_hasznalati_tajekoztato.pdf](https://nav.gov.hu/data/cms483474/Cookie_hasznalati_tajekoztato.pdf)
+
 ## 4 Jelenlegi Üzleti Folyamatok Modellje
 
 ### 4.1 Regisztráció
