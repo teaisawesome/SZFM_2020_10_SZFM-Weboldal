@@ -23,6 +23,8 @@ Az adatokat biztonságosan, adatbázisban lehessen tárolni, a weboldalnak platf
         + [https://europa.eu/youreurope/citizens/consumers/internet-telecoms/data-protection-online-privacy/index_hu.htm](https://europa.eu/youreurope/citizens/consumers/internet-telecoms/data-protection-online-privacy/index_hu.htm)
     + Sütikre (cookie-k) vonatkozó szabályozások
         + [https://nav.gov.hu/data/cms483474/Cookie_hasznalati_tajekoztato.pdf](https://nav.gov.hu/data/cms483474/Cookie_hasznalati_tajekoztato.pdf)
++ **3.2** Szabványok:
+A W3C nem az egyetlen olyan szervezet volt, mely szabványokat hozott létre az internet számára. A Web Standards Project a ‘90-es években jelent meg, és a W3C-t támogatta. Egyéni küldetése az volt, hogy olcsóbbá és egyszerűbbé tegye a web működését. Habár 2013-ban megszűnt, fontos szerepe volt abban, hogy a böngészők támogassák a HTML4-et és az XHTML-t. Jelenleg is vannak a W3C-n kívül más szabványokkal foglalkozó szervezetek, melyek segítenek rendet tenni a weben. Néhány nagyobb szervezet, mely jelenleg is aktív: az Ecma már a ‘60-as évek óta létezik, célja a kommunikáció és az információs rendszerek szabványainak kialakítása. Emellett felelős az ECMAScript fejlesztéséért, mely szabványosított JavaScript. az Internet Engineering Task Force (IETF) célja az internet felépítésének erősítése, miközben egy nyitottabb környezetet hoz létre. a WHATWG közösség számos szabványt hozott létre az URL-ekkel, a kódolással, az API-kkal kapcsolatosan. 
 
 ## 4 Jelenlegi Üzleti Folyamatok Modellje
 
