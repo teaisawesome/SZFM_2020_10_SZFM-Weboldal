@@ -85,6 +85,9 @@ A W3C nem az egyetlen olyan szervezet volt, mely szabványokat hozott létre az 
 + **6.3** Informatív felület
 + **6.4** Regisztrációs felület
 
+## 7. Irányított és szabad szöveges riportok szövege. 
+A megválaszolatlan kérdéseket majd élőben feltesszük.
+
 ## 8. Fogalomszótár
 
 + **8.1 Kardiovaszkuláris edzés típus:** Olyan edzés fajta, ahol a pulzusszám növelés a lényeg. Főleg kardió gyakorlatok tartoznak ide: futás, séta, biciklizés.
