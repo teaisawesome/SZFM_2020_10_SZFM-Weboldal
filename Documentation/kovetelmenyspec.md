@@ -88,3 +88,13 @@ Az adatokat biztonságosan, adatbázisban lehessen tárolni, a weboldalnak platf
 
 + **8.5 Biszett:** Olyan edzésmódszer, ahol két különböző gyakorlatot végzünk egymás után pihenő nélkül, de egy adott izomra. Ennek a módszernek a párja a szuperszett.
 
++ **8.6 Triszett:**  Olyan edzésmódszer, ahol három különböző gyakorlatot végzünk egymás után pihenő nélkül, de egy adott izomra.
+
++ **8.7 Szuperszett:**  Olyan edzésmódszer, ahol két különböző gyakorlatot végzünk egymás után pihenő nélkül, de két különböző izmokra. 
+
++ **8.8 Köredzés:**  Olyan edzésmódszer, ahol az adott gyakorlatokat egymás után végezzük, ha minden gyakorlaton végig értünk, akkor pihenünk és kezdjük előröl a kört.
+
++ **8.9 Terhelés növelő edzésterv:**  Olyan hetekre bontott edzésterv rendszer, ahol a terhelést az illető maximumából számoljuk, minden héten a megadott százalékokat kell teljesíteni.
+
++ **8.10 Maximum:**  Az a legnagyobb súly, amibe az illető csak egy szabályos ismétlést tud végrehajtani. Érdemes az adott maximumot 5-6 hónaponként újra megnézni, hogy volt e fejlődés.
+
