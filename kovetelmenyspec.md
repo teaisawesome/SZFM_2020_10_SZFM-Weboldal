@@ -76,3 +76,12 @@ Az adatokat biztonságosan, adatbázisban lehessen tárolni, a weboldalnak platf
 + **6.3** Informatív felület
 + **6.4** Regisztrációs felület
 
+## 8. Fogalomszótár.
+
++ **8.1 Kardiovaszkuláris edzés típus:** Olyan edzés fajta, ahol a pulzusszám növelés a lényeg. Főleg kardió gyakorlatok tartoznak ide: futás, séta, biciklizés.
+
++ **8.2 Napi kalóriabevitel:** Egy napra meghatározott kalória mennyisége. Függ az illető céljától, hogy testsúlyt akar csökkenteni vagy növelni.
+
++ **8.3 Napi fehérjebevitel:** Általában egy verseny sportolónak minimum napi 1,8g/testsúlykilogramm fehérjét kell fogyasztani, hogy fejlődjön, ez az érték még 2g is lehet. Ha nagyon sok fehérjét viszünk be a szervezetünkbe, akkor vese károsodást okozhat.
+
++ **8.4 Napi szénhidrátbevitel:** Függ az ember céljától, ha a súlycsökkenés a cél, akkor minél kevesebbet, de ez is szükséges a fejlődéshez. Férfiaknak napi 4-5g/testsúlykilogramm, nőknek 2-3g/testsúlykilogramm szükséges a normális vércukorszint és inzulinszint fenntartásához.
