@@ -68,3 +68,10 @@ Az adatokat biztonságosan, adatbázisban lehessen tárolni, a weboldalnak platf
 + **5.1.8** Online Rendelés esetén a komplexum bankszámlaszáma a megfelelő menüpontban
 + **5.1.9** Fórum lehetősége ahol véleményezhetik a regisztrált felhasználóink szolgáltatásainkat
 + **5.1.10** A megjelenítése a weboldalnak kompatibilis legyen a lehető legtöbb eszközzel → reszponzív
+
+## 6. Követelménylista
+
++ **6.1** Responzív dizánj
++ **6.2** Egyszerű felület
++ **6.3** Informatív felület
++ **6.4** Regisztrációs felület
