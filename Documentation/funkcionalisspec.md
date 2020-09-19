@@ -63,3 +63,15 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 - Keresés &cross;
     - A funkcionalitás a Bolt szekcióban lesz elérhető, külön nem.
 
+### Követelményspecifikáció 5.1.8:
+
+- Online Rendelés esetén a komplexum bankszámlaszáma a megfelelő menüpontban &check;
+
+### Követelményspecifikáció 5.1.9:
+
+- Fórum lehetősége ahol véleményezhetik a regisztrált felhasználóink szolgáltatásainkat &check;
+    - Csak bejelentkezés után lehet igénybe venni
+
+### Követelményspecifikáció 5.1.10:
+
+- Reszponzív weboldal &check;
