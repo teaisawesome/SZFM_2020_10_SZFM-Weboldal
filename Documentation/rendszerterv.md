@@ -6,6 +6,14 @@ Elsődleges célunk egy olyan weboldal létrehozása, ami tökéletesen lefedi a
 
 Távolabbi céljaink, hogy a regisztrált felhasználóknak megnyíljanak további lehetőségek is, mint például a kalóriaszámláló vagy az edzésterv generáló oldal. Így az oldalra belépett felhasználó meg tudja határozni a napi szükséges kalória mennyiségét, valamint könnyen és egyszerűen tud készíteni edzéstervet az ő által szerkesztett gyakorlatokból.
 
+## 2. Projekt terv
+
+A mi cégünk egy fiatalokból álló lelkes kis csapat, akik örömmel dolgoznak olyan cégeknek, akik segíteni szeretnének megkönnyíteni az emberek mindennapjait vagy csak kellemes kikapcsolódásra vágynak.
+
+A csapatunk négy főből áll, akik motiváltak, lelkesek és szeretik a kihívásokat. A munkát mindig a tudásunk és az eddigi tapasztalataink alapján osztjuk meg. Társaink mközül ketten jártasabbak a weboldal programozásban(Php), így ők csinálják a weboldal háttér munkáit. A másik két fő, pedig főként az oldal megjelenésével, a szövegekkel és a stílusokkal foglalkozik majd. 
+
+Első lépésként felvettük a kapcsolatot a megrendelővel, majd elkészítettük a követelmény specifikációt, a funkcionális specifikációt, majd a rendszert tervet. Második lépésként jött maga a weboldal megalkotása, és az ehhez kapcsolódó háttér programozási is, mint például a regisztrációs és bejelentkező felület.
+
 
 ## 3. Üzleti folyamatok modellje
 
