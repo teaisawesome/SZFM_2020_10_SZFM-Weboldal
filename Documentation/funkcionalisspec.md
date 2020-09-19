@@ -134,7 +134,7 @@ Az 5.1.9-as pont alapján implementálni fogunk egy felhasználói fórumot, aho
 
 Mivel manapság alapelvárás, ezért reszponzív weboldalt fogunk készíteni. Ez összhangban van az 5.1.10-es ponttal.
 
-## 7. Fogalomszótár
+## 11. Fogalomszótár
 
 **HTML5:** A HTML5 a HTML (Hypertext Markup Language, a web fő jelölőnyelve) korábbi verzióinak az átdolgozott változata. A kifejlesztésének egyik fő célja, hogy a webes alkalmazásokhoz ne legyen szükség pluginek (pl. Adobe Flash, Microsoft Silverlight, Oracle JavaFX) telepítésére. 
 *Forrás: https://hu.wikipedia.org/wiki/HTML5*  
