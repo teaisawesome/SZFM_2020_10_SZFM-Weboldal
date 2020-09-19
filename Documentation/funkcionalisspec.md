@@ -165,5 +165,23 @@ Forrás: https://hu.wikipedia.org/wiki/Felhaszn%C3%A1l%C3%B3
 **Javascript:** A JavaScript programozási nyelv egy objektumorientált, prototípus alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
 *Forrás: https://hu.wikipedia.org/wiki/JavaScript*
 
+**Felhasználó autentikáció:** A hitelesítés azt az azonosítási folyamatot jelenti, melynek során egy személy, bizonyítja, hogy rendelkezik megfelelő hitelesítő adatokkal. Többféle hitelesítő módszer létezik, melyek közül a legegyszerűbb a felhasználónevek és jelszavak alkalmazása, de ide tartozik a digitális aláírás és a biometriai azonosítás is.
+*Forrás: https://www.fogalomtar.hte.hu/wiki/-/wiki/HTE+Infokommunikacios+Fogalomtar/Hiteles%C3%ADt%C3%A9s*
 
+**ID:** Azonosító
+
+**Reszponzív webdesign:** A reszponzív weboldal (RWD) egy olyan megközelítéssel tervezett weboldal, amelynek a célja az, hogy optimális megjelenést biztosítson - könnyű olvashatóság, egyszerű navigáció a lehető legkevesebb átméretezéssel és görgetéssel - a legkülönfélébb eszközökön (az asztali számítógép monitorjától egészen a mobiltelefonokig). Egy reszponzív elv alapján tervezett oldal tökéletesen igazodik a megjelenítő eszközhöz, mindezt rugalmas felépítéssel, flexibilis képekkel.
+*Forrás: https://hu.wikipedia.org/wiki/Reszponz%C3%ADv_weboldal*
+
+**Áttűnés:** A weboldalon a menüpontokra kattintva különböző mozgásokkal, effektekkel jöhetnek elő az ablakok, képek vagy újabb menüpontok. Ezeket nevezzük áttűnéseknek.
+
+**Hamburger menü:** The hamburger button, so named for its unintentional resemblance to a hamburger, is a button typically placed in a top corner of a graphical user interface.[1] Its function is to toggle a menu (sometimes referred to as a hamburger menu) or navigation bar between being collapsed behind the button or displayed on the screen. The icon which is associated with this widget, consisting of three horizontal bars, is also known as the collapsed menu icon.
+*Forrás: https://en.wikipedia.org/wiki/Hamburger_button*
+
+**Link:** Hiperhivatkozás (angolul hyperlink), más néven link, ugrópont, kapocs, a hiperszöveges és a hipermediális rendszerek elemeit, objektumait összekötő eszköz. Értelmezéséhez különleges, számítógépes alkalmazásra van szükség.
+Hiperhivatkozással legtöbbször az internet böngészése közben találkozhatunk, ahol a hasonló témájú információk így vannak összekötve.
+*Forrás:https://hu.wikipedia.org/wiki/Hiperhivatkoz%C3%A1s*
+
+**Átirányítás:** Átirányításnak azt nevezzük, amikor egy lap nem tartalmaz szöveget, hanem csak egy hivatkozást egy másik lapra, a céllapra. Ha rákattintunk egy átirányító lapra mutató belső hivatkozásra, akkor automatikusan a céllapra jutunk. Ha ezt a belső linket zöld színben látod, akkor a te beállításaidban, ahol ki-bekapcsolható, be van kapcsolva az a segédeszköz, hogy az átirányításra mutató belső linkek kék helyett zölden jelenjenek meg.
+*Forrás: https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:%C3%81tir%C3%A1ny%C3%ADt%C3%A1s*
 
