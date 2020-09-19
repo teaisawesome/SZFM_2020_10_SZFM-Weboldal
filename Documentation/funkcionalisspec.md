@@ -46,3 +46,20 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 - Időpontfoglalás a vendégek számára &check;
     - Lefoglalt időpontok megjelenítése/Tiltása, ha foglalt &check;
         - Időpontfoglalás &check;
+
+### Követelményspecifikáció 5.1.5:
+
+- Kapcsolat/Elérhetőség megjelenítése &check;
+    - Cím/Telefonszám/E-mail/Bolt Telefonszám/Bolt e-mail/Google térkép &check;
+
+### Követelményspecifikáció 5.1.6:
+
+- Galéria &check;
+    - Medencék, akváriumok, szolgáltatásaink helyszíne &check;
+
+### Követelményspecifikáció 5.1.7:
+
+- Menüsor &check;
+- Keresés &cross;
+    - A funkcionalitás a Bolt szekcióban lesz elérhető, külön nem.
+
