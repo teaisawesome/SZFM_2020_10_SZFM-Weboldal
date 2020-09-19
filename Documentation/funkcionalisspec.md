@@ -30,3 +30,9 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 
 - Online regisztrációs felület &check;
     - Felhasználó/jelszó alapú belépés &check;
+
+### Követelményspecifikáció 5.1.2:
+
+- Online/Lokális személyzet nyilvántartása &check;
+    - Felhasználó/jelszó alapú belépés &check;
+    - Műszak/ledolgozott órák számának megtekintése/jelenleg megkeresett fizetés &check;
