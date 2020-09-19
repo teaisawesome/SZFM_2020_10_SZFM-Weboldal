@@ -59,6 +59,70 @@ Ami extra:
     -- Nyilván tudja tartani a jelen dolgozóinak listáját,
     -- Műszakokat tudja kezelni, tehát az időbeosztást tudja kialakítani.
 
+## 8. Architekturális terv
+
+&nbsp;&nbsp;&nbsp;&nbsp;Maga a rendszer tervezési mintája a három rétegű alkalmazást testesíti meg:
+
+- Frontend 
+- Internet 
+- Webszerver/Alkalmazás szerver 
+- Backend
+
+**Főbb komponensek:**
+
+**Front End->**
+
+- Web böngésző
+- Tartalom/Megjelenítés/Viselkedés
+- Mobil böngésző
+
+**Internet**
+
+**MiddleWare->**
+
+- Web server
+- Alkalmazás szerver
+
+**Back End->**
+
+- Adatbázis 
+- Egyéb szerver
+
+A rendszer felépítését illetően, egy kliens-szerver modellt veszünk alapul, ahol az adat és a feldolgozás megoszlásának eloszlása a fő profil, a feldolgozó egységek között. 
+
+- Kliensek
+- Szerverek
+- Hálózat 
+
+**Általánosan: ->**
+
+**Kliensek halmaza:**
+
+- Szerverek által biztosított szolgáltatásokat fogják futtatni.
+- Számos példány futhat egyidejűleg
+
+**Hálózat:**
+
+- Kliens hozzáférését biztosítja a szolgáltatásokhoz
+
+**Szerverek halmaza:**
+- Alrendszerek , számítógépek számára nyújt szolgáltatást
+
+**Biztonság:** 
+- HTTP protokoll használata
+
+A rendszer felbontását illetően a megvalósítás **objektumorientált felbontás** lesz:
+
+- jól definiált interfészekkel rendelkező objektumok
+- szolgáltatások más objektumok részére
+- vezérlési modell használata 
+
+**Változtathatóság:**
+- egyszerű, mert az objektumok implementációja anélkül változtatható, hogy az hatással lenne más objektumokra.
+
+**Vezérlési stílus:** 
+- Eseményvezérelt rendszer
+
 
 ## 9. Adatbázis terv
 
