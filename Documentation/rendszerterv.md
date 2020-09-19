@@ -180,3 +180,60 @@ CREATE TABLE FORUM(
     CONSTRAINT FK_USER_ID FOREIGN KEY (USER_ID) REFERENCES USERS(ID)    
 );
 ```
+## 11. Tesztterv
+
+&nbsp;&nbsp;&nbsp;&nbsp;A tesztterv célja a tesztelés teljes körűségének biztosítása, a tesztelés során alkalmazott eljárások és megoldások meghatározásával. 
+
+**Tesztelő:**
+
+- teszt végrehajtása 
+- észrevételek dokumentálása
+- teszt dokumentáció archiválása
+
+**Szakértő:**
+- észrevételek elemzése, megoldás javaslata
+
+**Teszt-koordinátor:**
+
+- teszt terv készítése
+- tesztterv jóváhagyása
+- teszt forgatókönyvek létrehozása
+- inkonzisztenciák kezelése
+- helyes és időbeli hibakezelés
+- projekt elkaszálása szükség esetén
+- végső riport készítése
+- teszt dokumentáció archiválása
+- észrevételek státuszának követése illetve dokumentáélása
+
+**Projektvezető:**
+- teszt terv jóváhagyása
+- tesztterv forgatókönyve
+
+**Tesztkörnyezet:** 
+- környezet neve és feladata
+- hozzáférés módja
+- konfiguráció
+- kapcsolattartó személy
+
+**Tesztadatok:**
+
+- végrehajtáshoz szükséges rekordok
+- elkészítésért , feltöltésért felelősök
+
+**Tesztadatok leszállítása:**
+- teszt terv: ->
+- tesztesetek: ->
+- tesztjegyzőkönyvek: ->
+- tesztelési jelentés: ->
+    - felelős személy
+    - szállítási gyakoriság
+    - szállítás módja
+
+**Tesztelési eszközök:** 
+- automatizált eszközök
+- tesztelői csapat alkalmazása
+- teszt-optimalizáló módszerek 
+
+Sikeres tesztről akkor beszélünk, ha a korábban említett egyveleg minden pontja rendben zajlott le és ennek fejében nincs kifogásolható eredmény, amely valahol is hibát dobott volna.
+
+pl.: Regisztráció, Belépés, Adatbázis funkcionalitások, Biztonság stb...
