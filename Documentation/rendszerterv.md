@@ -1,5 +1,65 @@
 # Rendszerterv
 
+## 3. Üzleti folyamatok modellje
+
+&nbsp;&nbsp;&nbsp;&nbsp;A felhasználó a weboldalt megnyitva, egy átlagos, letisztult képet fog kapni, ahol alapinformációkat szolgáltatunk a helyiségekről, illetve a menüsort felhasználva további funkciókat érhet el, melyekkel további tudásra tesz szert. 
+Menüsor jellemzése a látogató szemszögéből:
+
+**-> Bolt :**
+
+    -- A bolt fület megnyitva, komplexumunk belsejében található üzletünkről kapnak információt. Termékeinket tudják megtekinteni, melyeket üzletünk tartalmaz. ( Pólók, Bögrék, Teák, Gyógynövények, és egyéb készítmények, amelyek hozzájárulnak az egészségesebb életmód kialakításához) 
+    -- Ezen felül szolgáltatásaink árlistáját tekinthetik meg, melyen átláthatóan el tudják olvasni minek a használata/igénybevétele mennyibe is kerül. 
+**-> Galéria :**
+
+    -- A látogató, aktuális képeket tekinthet meg építmünykről és környékéről, szolgáltatásaink helyszínéről, illetve öltözőinkről, zuhanyzóinkról. Emellett életképeket láthatnak, melyek szimbolikus jelleggel próbálják reprezentálni a hangulatot, amely átjárja az épületegyüttest.
+
+**-> Regisztráció:** 
+
+    -- Egyértelmű kérdéseket teszünk, melyekkel elkérjük a regisztrálni akaró fél:  
+        - nevét 
+        - címét 
+        - jelszavát 
+        - e-mail címét 
+        - telefonszámát
+    -- Ezeken felül lehetőséget kínálunk előfizetett regisztrációra, amelyet ha kiválaszt, egy plusz információt kell megadni: a bankszámlaszámot 
+    -- Előfizetett felhasználóként, kap cégünktől egy ingyenes felhasználási lehetőséget, bármelyik szolgáltatásunkra.
+**-> Kapcsolat:**
+
+    Egyértelmű elérhetőséget biztosítunk, cégünkkel kapcsolatban beleértve a térképes megjelenítést is.(Címünk, Telefonszámunk, E-mail címünk)
+**-> Szolgáltatások:**
+
+    Kategorizálva érheti el a pontokon keresztül mit szeretne a vendég igénybe venni, és a döntés megkönnyítése érdekében részletes leírást  kap a szolgáltatás  pozitív egészségügyi hatásairól.
+**-> Rólunk:**
+
+    Cégünk történelmének bemutatása és tömör információk juttatásokról.
+    Plusz érdekességképpen pedig négy alapító önéletrajzáról olvashatnak.
+**-> Belépés:**
+
+    -- Ez a menüpont teszi lehetővé, a regisztrált feleknek a belépést, miután extra szolgáltatásként a weboldalon a fórumot is igénybe tudja venni, ahol véleményét kinyilvánítva tud segítséget nyújtani a további érdeklődők számára.
+    -- Extra funkcióként időpontot tud foglalni a különböző programokra, és saját edzéstervet tudunk összeállítani neki, az edzésterv kalkulátor segítségével.
+    -- A kalkulátor érdeklődik a regisztrált fél súlya, magassága, testzsírszázaléka,életkora és neme felől.
+    -- Saját profilukat is megtudják tekinteni a regisztrált felek, hogy az adatmódosítás lehetőségét felkínáljuk, illetve ha elő szeretne fizetni mégis, akkor ezt megtudja tenni.
+    --  Ezen adatok alapján pedig tökéletesen kiszámolja és kiadja a megfelelő edzéstervet, melyekhez kellő felszerelést biztosít intézményünk.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Az alkalmazottak is megkapják ezeket a funkciókat, viszont van pár extra, amelyek az ott dolgozói léttel járnak.
+Ezek a belépést követően lesznek elérhetőek saját azonosítóik alapján. 
+
+Ami extra: 
+
+**-> Belépés:**
+
+    -- Az alkalmazott megtudja tekinteni az aktuális havi bérét, hogy az adott hónapban mennyit is keresett.
+    Saját személyre szabott edzéstervet tud kialakítani a kalkulátor igénybevétele nélkül. 
+    -- Kap egy fület, amelyen keresztül a boltba tudja feltölteni az újabb termékeinket vagy levenni amelyik már elfogyott.Továbbá szolgáltatásaink leírását tudja módosítani,frissíteni,törölni.
+    -- Megtekintheti a saját munkaidő beosztását, hogy az adott hónapban mikor is dolgozik, melyik napokon.
+
+&nbsp;&nbsp;&nbsp;&nbsp;A cégvezető is tudja természetesen kezelni a felületet. Ami a vezető privilégiuma közé tartozik, hogy kezelni tudja: 
+
+    -- Bérszámítást, ahol alkalmazottainak tud árakat szabni,
+    -- Nyilván tudja tartani a jelen dolgozóinak listáját,
+    -- Műszakokat tudja kezelni, tehát az időbeosztást tudja kialakítani.
+
+
 ## 9. Adatbázis terv
 
 ### Az adatbázis UML modellje
