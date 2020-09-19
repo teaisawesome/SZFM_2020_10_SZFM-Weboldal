@@ -237,3 +237,24 @@ CREATE TABLE FORUM(
 Sikeres tesztről akkor beszélünk, ha a korábban említett egyveleg minden pontja rendben zajlott le és ennek fejében nincs kifogásolható eredmény, amely valahol is hibát dobott volna.
 
 pl.: Regisztráció, Belépés, Adatbázis funkcionalitások, Biztonság stb...
+
+## 12. Telepítési Terv
+A **felhasználót** illetően : 
+- számítógép
+- operációs rendszer feltelepítése 
+- internet elérés
+- bármelyik web böngésző letöltése/telepítése
+- megfelelő url begépelése
+
+A **céget** illetően a megvalósítás:
+- XAMPP webszerver-szoftvercsomag
+- ATW -> ingyenes webtárhely (Platformfüggetlen környezet) - https://atw.hu/ingyenes-webtarhely
+
+**XAMPP** röviden, miért is praktikus számunkra.
+
+    -- Az XAMPP egy szabad és nyílt forrású platformfüggetlen webszerver-szoftvercsomag, amelynek legfőbb alkotóelemei az Apache webszerver, a MariaDB adatbázis-kezelő, valamint a PHP és a Perl programozási nyelvek értelmezői (végrehajtó rendszerei). 
+    -- Ez a szoftvercsomag egy integrált rendszert alkot, amely webes alkalmazások készítését, tesztelését és futtatását célozza, és ehhez egy csomagban minden szükséges összetevőt tartalmaz. 
+    -- Egységes, átlátható és praktikus a megvalósítás szempontjából, hisz mindent elérünk ami számunkra a megvalósításhoz kell. 
+**ATW** röviden, miért is gondolkodjunk el rajta: 
+
+    -- Ingyenes webtárhely szolgáltatás amely 2003  augusztusában látott napvilágot.A szolgáltatás azáltal vált hamar ismertté, hogy versenytársakhoz képest jelentősen nagyobb tárhelyet tud biztosítani a felhasználók számára.
