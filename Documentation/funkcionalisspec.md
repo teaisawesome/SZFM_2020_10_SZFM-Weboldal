@@ -115,101 +115,101 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 ## 7. Fogalomszótár
 
 **HTML5:** A HTML5 a HTML (Hypertext Markup Language, a web fő jelölőnyelve) korábbi verzióinak az átdolgozott változata. A kifejlesztésének egyik fő célja, hogy a webes alkalmazásokhoz ne legyen szükség pluginek (pl. Adobe Flash, Microsoft Silverlight, Oracle JavaFX) telepítésére. 
-*Forrás: https://hu.wikipedia.org/wiki/HTML5*
+*Forrás: https://hu.wikipedia.org/wiki/HTML5*  
 
 **Php:** A PHP egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére. Az első szkriptnyelvek egyike, amely külső fájl használata helyett HTML oldalba ágyazható. A kódot a webszerver PHP feldolgozó modulja értelmezi, ezzel dinamikus weboldalakat hozva létre.
-*Forrás: https://hu.wikipedia.org/wiki/PHP*
+*Forrás: https://hu.wikipedia.org/wiki/PHP*  
 
 **Css:** A CSS (Cascading Style Sheets, magyarul: lépcsőzetes stíluslapok) a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le. Ezenkívül használható bármilyen XML alapú dokumentum stílusának leírására is, mint például az SVG, XUL stb. A CSS specifikációját a World Wide Web Consortium felügyeli.
-*Forrás: https://hu.wikipedia.org/wiki/Cascading_Style_Sheets*
+*Forrás: https://hu.wikipedia.org/wiki/Cascading_Style_Sheets*  
 
 **Png:** A PNG (Portable Network Graphics) képek tárolására, veszteségmentes tömörítésére alkalmas fájlformátum. Kiterjesztésként a .png írásmóddal használják. 
-*Forrás: https://hu.wikipedia.org/wiki/PNG*
+*Forrás: https://hu.wikipedia.org/wiki/PNG*  
 
 **Jpeg:** A JPEG – (Joint Photographic Experts Group) képek tárolására alkalmas fájlformátum. Kiterjesztéseként a .jpeg, .jpg, ritkábban a .jpe használt. A JPEG normát 1992-ben fogadták el, ami különböző képtömörítési módokat ír le. A képen lévő információt veszteségesen tömöríti ez a formátum.
-*Forrás: https://hu.wikipedia.org/wiki/JPEG*
+*Forrás: https://hu.wikipedia.org/wiki/JPEG*  
 
 **Címsor:** A webböngészőkben a címsor vagy címsáv (address bar, location bar, URL bar) a böngésző ablakának az a része (vezérlőeleme vagy controlja), ami az aktuálisan mutatott weboldal URL-jét mutatja, illetve lehetővé teszi a betöltendő URL begépelését. A legtöbb böngészőben működik az automatikus kiegészítés a cím beírása közben – ez általában a böngészési előzmények alapján történik. 
-*Forrás: https://hu.wikipedia.org/wiki/C%C3%ADmsor_(b%C3%B6ng%C3%A9sz%C5%91elem)*
+*Forrás: https://hu.wikipedia.org/wiki/C%C3%ADmsor_(b%C3%B6ng%C3%A9sz%C5%91elem)*  
 
 **Regisztráció:** A felhasználó saját adatai(email cím, jelszó) megadásával be tud regisztrálni az oldalra, így több funkciót (webshop, akciókról email) ér el és előnyökhöz (gyorsabb vásárlás) is juthat.
 
 **Belépés:** A regisztráció után, a felhasználónak csak be kell lépnie az oldalra, így nem kell mindig regisztrálnia.
 
 **URL:** Az URL vagy más néven webcím (mely a Uniform Resource Locator [egységes erőforrás-helymeghatározó] rövidítése), az interneten megtalálható bizonyos erőforrások (például szövegek, képek) szabványosított címe. 
-*Forrás: https://hu.wikipedia.org/wiki/URL*
+*Forrás: https://hu.wikipedia.org/wiki/URL*  
 
 **Menüsor:** Az aktív weboldalon használható parancsok csoportjai. 
-*Forrás: https://informatika.gtportal.eu/?f0=szotar*
+*Forrás: https://informatika.gtportal.eu/?f0=szotar*  
 
 **Hibajavítás:** Az informatikában és az információelméletben fontos gyakorlati kérdés a hibák felismerése és kijavítása. A hibafelismerés egy képesség az adó és a vevő közötti átvitel folyamán a zaj vagy egyéb zavar okozta rendellenességek miatti torzulások jelzésére. A hibajavítási képesség lehetővé teszi a hiba helyének felismerését és kijavítását is. 
-*Forrás: https://hu.wikipedia.org/wiki/Hibajav%C3%ADt%C3%A1s*
+*Forrás: https://hu.wikipedia.org/wiki/Hibajav%C3%ADt%C3%A1s*  
 
 **Felhasználó:** A felhasználó (user) az a személy (végfelhasználó, end-user) vagy szoftver ágens, aki egy számítógépes vagy számítógép-hálózati szolgáltatás használója. A felhasználóhoz gyakran felhasználói fiók tartozik, amit felhasználói név (username, screen name, nick vagy handle) azonosít. 
-Forrás: https://hu.wikipedia.org/wiki/Felhaszn%C3%A1l%C3%B3
+*Forrás: https://hu.wikipedia.org/wiki/Felhaszn%C3%A1l%C3%B3*  
 
 **Felhasználónév:** Egy egyedi azonosító, amit a felhasználó maga választ, sose lehet két azonos felhasználónév. A belépéshez szükséges egyik adat.
 
 **Jelszó:** A belépéshez szükséges másik adat, minden felhasználó maga választja.
 
 **Google térkép navigáció/kezelése:** A Google Térkép (angolul: Google Maps) a Google által fejlesztett ingyenes internetes térképszolgáltatás. Az elérhető térképek és műholdfelvételek az egész Földet lefedik. 
-*Forrás: https://hu.wikipedia.org/wiki/Google_T%C3%A9rk%C3%A9p*
+*Forrás: https://hu.wikipedia.org/wiki/Google_T%C3%A9rk%C3%A9p*  
 
 **Termék feltöltése:** Az erre a feladatra kijelölt emberek tudnak feltölteni webshopba új termékeket, amiket a vásárlók meg tudnak vásárolni.
 
 **Webszerver:** A webkiszolgáló/webszerver egy kiszolgáló, amely elérhetővé teszi a helyileg (esetleg más kiszolgálón) tárolt weblapokat a HTTP protokollon keresztül. A HTTP webszerverekhez webböngészőkkel lehet kapcsolódni.
 
 **XAMPP:** A XAMPP – (kiejtése: /ˈzæmp/ vagy /ˈɛks.æmp/[1]) – egy szabad és nyílt forrású platformfüggetlen webszerver-szoftvercsomag, amelynek legfőbb alkotóelemei az Apache webszerver, a MariaDB (korábban a MySQL[2]) adatbázis-kezelő, valamint a PHP és a Perl programozási nyelvek értelmezői (végrehajtó rendszerei). Ez a szoftvercsomag egy integrált rendszert alkot, amely webes alkalmazások készítését, tesztelését és futtatását célozza, és ehhez egy csomagban minden szükséges összetevőt tartalmaz. A rendszer egyik nagy előnye az összehangolt elemek könnyű telepíthetősége.
-*Forrás: https://hu.wikipedia.org/wiki/XAMPP*
+*Forrás: https://hu.wikipedia.org/wiki/XAMPP*  
 
 **Bootstrap 4:** Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
-*Forrás: https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)*
+*Forrás: https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)*  
 
 **Javascript:** A JavaScript programozási nyelv egy objektumorientált, prototípus alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
-*Forrás: https://hu.wikipedia.org/wiki/JavaScript*
+*Forrás: https://hu.wikipedia.org/wiki/JavaScript*  
 
 **Felhasználó autentikáció:** A hitelesítés azt az azonosítási folyamatot jelenti, melynek során egy személy, bizonyítja, hogy rendelkezik megfelelő hitelesítő adatokkal. Többféle hitelesítő módszer létezik, melyek közül a legegyszerűbb a felhasználónevek és jelszavak alkalmazása, de ide tartozik a digitális aláírás és a biometriai azonosítás is.
-*Forrás: https://www.fogalomtar.hte.hu/wiki/-/wiki/HTE+Infokommunikacios+Fogalomtar/Hiteles%C3%ADt%C3%A9s*
+*Forrás: https://www.fogalomtar.hte.hu/wiki/-/wiki/HTE+Infokommunikacios+Fogalomtar/Hiteles%C3%ADt%C3%A9s*  
 
 **ID:** Azonosító
 
 **Reszponzív webdesign:** A reszponzív weboldal (RWD) egy olyan megközelítéssel tervezett weboldal, amelynek a célja az, hogy optimális megjelenést biztosítson - könnyű olvashatóság, egyszerű navigáció a lehető legkevesebb átméretezéssel és görgetéssel - a legkülönfélébb eszközökön (az asztali számítógép monitorjától egészen a mobiltelefonokig). Egy reszponzív elv alapján tervezett oldal tökéletesen igazodik a megjelenítő eszközhöz, mindezt rugalmas felépítéssel, flexibilis képekkel.
-*Forrás: https://hu.wikipedia.org/wiki/Reszponz%C3%ADv_weboldal*
+*Forrás: https://hu.wikipedia.org/wiki/Reszponz%C3%ADv_weboldal*  
 
 **Áttűnés:** A weboldalon a menüpontokra kattintva különböző mozgásokkal, effektekkel jöhetnek elő az ablakok, képek vagy újabb menüpontok. Ezeket nevezzük áttűnéseknek.
 
 **Hamburger menü:** The hamburger button, so named for its unintentional resemblance to a hamburger, is a button typically placed in a top corner of a graphical user interface.[1] Its function is to toggle a menu (sometimes referred to as a hamburger menu) or navigation bar between being collapsed behind the button or displayed on the screen. The icon which is associated with this widget, consisting of three horizontal bars, is also known as the collapsed menu icon.
-*Forrás: https://en.wikipedia.org/wiki/Hamburger_button*
+*Forrás: https://en.wikipedia.org/wiki/Hamburger_button*  
 
 **Link:** Hiperhivatkozás (angolul hyperlink), más néven link, ugrópont, kapocs, a hiperszöveges és a hipermediális rendszerek elemeit, objektumait összekötő eszköz. Értelmezéséhez különleges, számítógépes alkalmazásra van szükség.
 Hiperhivatkozással legtöbbször az internet böngészése közben találkozhatunk, ahol a hasonló témájú információk így vannak összekötve.
-*Forrás:https://hu.wikipedia.org/wiki/Hiperhivatkoz%C3%A1s*
+*Forrás:https://hu.wikipedia.org/wiki/Hiperhivatkoz%C3%A1s*  
 
 **Átirányítás:** Átirányításnak azt nevezzük, amikor egy lap nem tartalmaz szöveget, hanem csak egy hivatkozást egy másik lapra, a céllapra. Ha rákattintunk egy átirányító lapra mutató belső hivatkozásra, akkor automatikusan a céllapra jutunk. Ha ezt a belső linket zöld színben látod, akkor a te beállításaidban, ahol ki-bekapcsolható, be van kapcsolva az a segédeszköz, hogy az átirányításra mutató belső linkek kék helyett zölden jelenjenek meg.
-*Forrás: https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:%C3%81tir%C3%A1ny%C3%ADt%C3%A1s*
+*Forrás: https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:%C3%81tir%C3%A1ny%C3%ADt%C3%A1s*  
 
 **Session/Munkamenet:** A munkamenet (angolul session) a számítógép-hálózatoknál két számítógép közötti kommunikáció olyan formája, mely során az egyik (vagy mindkét) gép átmenetileg adatokat tárol a másikról; ennek segítségével egy állapotmentes protokollon keresztül is lehet állapotokat megőrizve kommunikálni.
-*Forrás: https://hu.wikipedia.org/wiki/Munkamenet*
+*Forrás: https://hu.wikipedia.org/wiki/Munkamenet*  
 
-**MySQL: A MySQL** egy többfelhasználós, többszálú, SQL-alapú relációs adatbázis-kezelő szerver.
-*Forrás: https://hu.wikipedia.org/wiki/MySQL*
+**MySQL:** A MySQL egy többfelhasználós, többszálú, SQL-alapú relációs adatbázis-kezelő szerver.
+*Forrás: https://hu.wikipedia.org/wiki/MySQL*  
 
 **Relációs adatbázis:** Relációs adatbázisnak nevezzük a relációs adatmodell elvén létrehozott adatok összességét, a relációs adatmodell fogalomrendszerében meghatározott ún. relációk egy véges halmazát. Relációs adatbázisokat relációsadatbázis-kezelőkkel hozhatunk létre, szerkeszthetünk és törölhetünk.
-*Forrás: https://hu.wikipedia.org/wiki/Rel%C3%A1ci%C3%B3s_adatb%C3%A1zis*
+*Forrás: https://hu.wikipedia.org/wiki/Rel%C3%A1ci%C3%B3s_adatb%C3%A1zis*  
 
 **Adatbázis:** Az adatbázis azonos minőségű (jellemzőjű), többnyire strukturált adatok összessége, amelyet egy tárolására, lekérdezésére és szerkesztésére alkalmas szoftver eszköz kezel.
-*Forrás: https://hu.wikipedia.org/wiki/Adatb%C3%A1zis*
+*Forrás: https://hu.wikipedia.org/wiki/Adatb%C3%A1zis*  
 
 **Szövegdoboz:** A szöveg tördeléséhez használhatunk szövegdobozokat így látványosabban tudunk elkülöníteni bekezdéseket vagy témákat.
 
 **Szövegmező:** A Szövegmező típusú mező egy rövid, általában néhány szóból álló szabad szöveg bevitelére, megadására szolgál. A kitöltőket a "Kitöltési segédlet"-be írt instrukciókkal, szövegmező maszk, illetve reguláris kifejezés (regexp) alkalmazásával lehet befolyásolni abban, hogy a szabad szöveges válaszadási lehetőség ellenére, összehasonlítható, kiértékelhető válaszokat adjanak.
-*Forrás: https://www.infoartnet.hu/urlap-szovegmezo*
+*Forrás: https://www.infoartnet.hu/urlap-szovegmezo*  
 
 **Checkbox:** A checkbox (check box, tickbox, tick box) is a GUI widget that permits the user to make a binary choice, i.e. a choice between one of two possible mutually exclusive options. For example, the user may have to answer 'yes' (checked) or 'no' (not checked) on a simple yes/no question.
-*Forrás: https://en.wikipedia.org/wiki/Checkbox*
+*Forrás: https://en.wikipedia.org/wiki/Checkbox*  
 
 **Űrlap:** Az űrlapokat a weboldalak készítésénél számos célra felhasználhatjuk, például arra, hogy segítségével a látogatók üzenetet, visszajelzést küldhessenek az üzemeltetőnek, árukat rendelhessenek, bejelentkezhessenek, és így tovább.
-*Forrás: http://tamop412.elte.hu/tananyagok/weblapkeszites/lecke9_lap1.html*
+*Forrás: http://tamop412.elte.hu/tananyagok/weblapkeszites/lecke9_lap1.html*  
 
 **HTTP metódusok:** HTTP protokoll nyolcféle metódust definiál. A metódusok (más szóval verbek) a megadott erőforráson végzendő műveletet határozzák meg.
  - HEAD: Ugyanazt adja vissza, mint a GET, csak magát az üzenettestet hagyja ki a válaszból.  
@@ -220,7 +220,7 @@ Hiperhivatkozással legtöbbször az internet böngészése közben találkozhat
  - TRACE: Visszaküldi a kapott kérést. Ez akkor hasznos, ha a kliens oldal arra kíváncsi, hogy a köztes gépek változtatnak-e, illetve mit változtatnak a kérésen.  
  - OPTIONS: Visszaadja a szerver által támogatott HTTP metódusok listáját.  
  - CONNECT: Átalakítja a kérést transzparens TCP/IP tunnellé. Ezt a metódust jellemzően SSL kommunikáció megvalósításához használják.  
-*Forrás: https://hu.wikipedia.org/wiki/HTTP#Met%C3%B3dusok*
+*Forrás: https://hu.wikipedia.org/wiki/HTTP#Met%C3%B3dusok*  
 
 **Kliens-szerver modell:** A kliens-szerver (magyarul: ügyfél-kiszolgáló) kifejezést először az 1980-as években használták olyan számítógépekre (PC-kre) amelyek hálózatban működtek. A ma ismert modell a 80-as évek végén vált elfogadottá. A kliens-szerver szoftverarchitektúra egy sokoldalú, üzenetalapú és moduláris infrastruktúra amely azért alakult ki, hogy a használhatóságot, rugalmasságot, együttműködési lehetőségeket és bővíthetőséget megnövelje a centralizált, nagyszámítógépes, időosztásos rendszerekhez képest.
-*Forrás: https://hu.wikipedia.org/wiki/Kliens-szerver_architekt%C3%BAra*
+*Forrás: https://hu.wikipedia.org/wiki/Kliens-szerver_architekt%C3%BAra*  
