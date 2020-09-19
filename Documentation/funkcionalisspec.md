@@ -112,6 +112,28 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 
 &nbsp;&nbsp;&nbsp;&nbsp;A galéria menüpontra kattintva a galéria oldalon találjuk magunkat. Itt különböző kis táblázatos elrendezésű cardokat találunk, amiken képek vannak. Ha ezekre a cardokra rákattintunk akkor nagyításba megjelenik a kattintott kép.
 
+## 10. Funkció – követelmény megfeleltetés
+
+A használati esetek - követelmények megfeleltetéséből látszik, hogy lényegében minden követelményt lefedtünk.  
+
+A követelményspecifikáció(ebben a részben a fejezetszámokat használjuk ezután) 5.1.1-es pontjában leírtaknak megfelelően online regisztrációs felülettel, illetve felhasználónév és jelszó alapú beléptetéssel fog rendelkezni a weboldal.  
+
+A személyzet nyilvántartása szintén felhasználónév és jelszó alapú bejelentkezéssel lesz elérhető az 5.1.2-es pont alapján. Itt megtekinthető lesz a ledolgozott órák száma, illetve az adott időpontig megkeresett fizetés.  
+
+Az 5.1.3-as pont alapján az online felületért felelős céges dolgozók képesek lesznek új termék(ek) feltöltésére, személyes edzés és táplálkozás feltöltésére, valamint a szolgáltatásokkal kapcsolatban új információk feltöltésére.  
+
+A weboldalon a vendégek számára időpontfoglalásra is lesz lehetőség. A weboldalon meg fognak jelenni megkülönböztetve a lefoglalt időpontok, és ezekben már a rendszer nem fogja engedni a felhasználónak az időpontfoglalást az 5.1.4-es pont alapján.  
+
+Az 5.1.5-ös és 5.1.6-os pontok alapján a weboldalon megtalálható lesz a komplexum elérhetősége és a galéria, ahol a felhasználók megtekinthetik képeken a komplexumot.  
+
+A weboldalon való navigálást a menüsor fogja lehetővé tenni az 5.1.7-es pont alapján. A keresés funkció csak a Bolt szekcióban lesz elérhető, viszont külön nem.  
+
+A weboldalon online rendelés esetén meg fog jelenni a komplexum bankszámlaszáma a megfelelő menüpontban az 5.1.8-as menüpont alapján.  
+
+Az 5.1.9-as pont alapján implementálni fogunk egy felhasználói fórumot, ahol a szolgáltatások igénybevevői tudják értékelni a komplexumot saját tapasztalataik alapján. Ezt csak bejelentkezés után lehet igénybe venni.  
+
+Mivel manapság alapelvárás, ezért reszponzív weboldalt fogunk készíteni. Ez összhangban van az 5.1.10-es ponttal.
+
 ## 7. Fogalomszótár
 
 **HTML5:** A HTML5 a HTML (Hypertext Markup Language, a web fő jelölőnyelve) korábbi verzióinak az átdolgozott változata. A kifejlesztésének egyik fő célja, hogy a webes alkalmazásokhoz ne legyen szükség pluginek (pl. Adobe Flash, Microsoft Silverlight, Oracle JavaFX) telepítésére. 
