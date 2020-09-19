@@ -142,4 +142,28 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 **Hibajavítás:** Az informatikában és az információelméletben fontos gyakorlati kérdés a hibák felismerése és kijavítása. A hibafelismerés egy képesség az adó és a vevő közötti átvitel folyamán a zaj vagy egyéb zavar okozta rendellenességek miatti torzulások jelzésére. A hibajavítási képesség lehetővé teszi a hiba helyének felismerését és kijavítását is. 
 *Forrás: https://hu.wikipedia.org/wiki/Hibajav%C3%ADt%C3%A1s*
 
+**Felhasználó:** A felhasználó (user) az a személy (végfelhasználó, end-user) vagy szoftver ágens, aki egy számítógépes vagy számítógép-hálózati szolgáltatás használója. A felhasználóhoz gyakran felhasználói fiók tartozik, amit felhasználói név (username, screen name, nick vagy handle) azonosít. 
+Forrás: https://hu.wikipedia.org/wiki/Felhaszn%C3%A1l%C3%B3
+
+**Felhasználónév:** Egy egyedi azonosító, amit a felhasználó maga választ, sose lehet két azonos felhasználónév. A belépéshez szükséges egyik adat.
+
+**Jelszó:** A belépéshez szükséges másik adat, minden felhasználó maga választja.
+
+**Google térkép navigáció/kezelése:** A Google Térkép (angolul: Google Maps) a Google által fejlesztett ingyenes internetes térképszolgáltatás. Az elérhető térképek és műholdfelvételek az egész Földet lefedik. 
+*Forrás: https://hu.wikipedia.org/wiki/Google_T%C3%A9rk%C3%A9p*
+
+**Termék feltöltése:** Az erre a feladatra kijelölt emberek tudnak feltölteni webshopba új termékeket, amiket a vásárlók meg tudnak vásárolni.
+
+**Webszerver:** A webkiszolgáló/webszerver egy kiszolgáló, amely elérhetővé teszi a helyileg (esetleg más kiszolgálón) tárolt weblapokat a HTTP protokollon keresztül. A HTTP webszerverekhez webböngészőkkel lehet kapcsolódni.
+
+**XAMPP:** A XAMPP – (kiejtése: /ˈzæmp/ vagy /ˈɛks.æmp/[1]) – egy szabad és nyílt forrású platformfüggetlen webszerver-szoftvercsomag, amelynek legfőbb alkotóelemei az Apache webszerver, a MariaDB (korábban a MySQL[2]) adatbázis-kezelő, valamint a PHP és a Perl programozási nyelvek értelmezői (végrehajtó rendszerei). Ez a szoftvercsomag egy integrált rendszert alkot, amely webes alkalmazások készítését, tesztelését és futtatását célozza, és ehhez egy csomagban minden szükséges összetevőt tartalmaz. A rendszer egyik nagy előnye az összehangolt elemek könnyű telepíthetősége.
+*Forrás: https://hu.wikipedia.org/wiki/XAMPP*
+
+**Bootstrap 4:** Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+*Forrás: https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)*
+
+**Javascript:** A JavaScript programozási nyelv egy objektumorientált, prototípus alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
+*Forrás: https://hu.wikipedia.org/wiki/JavaScript*
+
+
 
