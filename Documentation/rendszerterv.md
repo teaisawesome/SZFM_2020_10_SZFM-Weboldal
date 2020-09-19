@@ -1,20 +1,5 @@
 # Rendszerterv
 
-## 1. A rendszer célja
-
-Elsődleges célunk egy olyan weboldal létrehozása, ami tökéletesen lefedi az SZFM cég által nyújtott szolgáltatásokat. Ezen felül még tartalmaz sok informatív cikket és tanácsot az egészséges élettel kapcsolatban legyen szó a mozgásról, táplálkozásról, vagy pihenésről. A weboldalt egyszerűre és felhasználóbarátra tervezzük minden korosztály számára. Átlátható és könnyen bővíthető oldal létrehozására törekszünk. A felhasználók egy rövid regisztráció után könnyen be tudnak majd lépni az oldalra. 
-
-Távolabbi céljaink, hogy a regisztrált felhasználóknak megnyíljanak további lehetőségek is, mint például a kalóriaszámláló vagy az edzésterv generáló oldal. Így az oldalra belépett felhasználó meg tudja határozni a napi szükséges kalória mennyiségét, valamint könnyen és egyszerűen tud készíteni edzéstervet az ő által szerkesztett gyakorlatokból.
-
-## 2. Projekt terv
-
-A mi cégünk egy fiatalokból álló lelkes kis csapat, akik örömmel dolgoznak olyan cégeknek, akik segíteni szeretnének megkönnyíteni az emberek mindennapjait vagy csak kellemes kikapcsolódásra vágynak.
-
-A csapatunk négy főből áll, akik motiváltak, lelkesek és szeretik a kihívásokat. A munkát mindig a tudásunk és az eddigi tapasztalataink alapján osztjuk meg. Társaink mközül ketten jártasabbak a weboldal programozásban(Php), így ők csinálják a weboldal háttér munkáit. A másik két fő, pedig főként az oldal megjelenésével, a szövegekkel és a stílusokkal foglalkozik majd. 
-
-Első lépésként felvettük a kapcsolatot a megrendelővel, majd elkészítettük a követelmény specifikációt, a funkcionális specifikációt, majd a rendszert tervet. Második lépésként jött maga a weboldal megalkotása, és az ehhez kapcsolódó háttér programozási is, mint például a regisztrációs és bejelentkező felület.
-
-
 ## 3. Üzleti folyamatok modellje
 
 &nbsp;&nbsp;&nbsp;&nbsp;A felhasználó a weboldalt megnyitva, egy átlagos, letisztult képet fog kapni, ahol alapinformációkat szolgáltatunk a helyiségekről, illetve a menüsort felhasználva további funkciókat érhet el, melyekkel további tudásra tesz szert. 
@@ -73,6 +58,35 @@ Ami extra:
     -- Bérszámítást, ahol alkalmazottainak tud árakat szabni,
     -- Nyilván tudja tartani a jelen dolgozóinak listáját,
     -- Műszakokat tudja kezelni, tehát az időbeosztást tudja kialakítani.
+    
+## 6. Fizikai környezet
+
+&nbsp;&nbsp;&nbsp;&nbsp;Fizikai szerver létesítése és karbantartására nincs szükség a projekt szempontjából. A hosztolást egy szolgáltató fogja biztosítani.  
+Szolgáltató lista:
+- Hostinger
+- HostGator
+- ATW
+
+&nbsp;&nbsp;&nbsp;&nbsp;Minden szolgáltatónak megvan a maga service csomagja. Az ügyféllel egyzetetve végül a ATW OptimalWeb Premium webtárhely szolgáltatását fogjuk igénybe venni. Amely kis és közepes méretű vállalkozásokra van szabva. Továbbá a csomaggal ingyenes SSL tanúsítványt, domaint is kapunk. A csomag összes funkciója felsorolva a [https://atw.hu/tarhely](https://atw.hu/tarhely) oldalon elérhető.  
+&nbsp;&nbsp;&nbsp;&nbsp;Adatbázis szempontból se lesz sok teendő. A vásárolni kívánt csomagban ingyenes MySQL adatbázis és managelő platform áll rendelkezésre.  
+
+**Fejlesztési szempontok / környezetek:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;Mivel webes platformra fejlesszünk ezért webes frontend, backend technológiákat fogunk alkalmazni. Ezekhez különböző fejlesztői környezetek (IDE)-k állnak rendelkezésre.  
+**Frontend**  
+- **Visual Studio Code** (terminál, EMET, verziókezelés, bővítmények hozzáadása lehetséges amely a különböző technológiák kódjaihoz ajánl kódkiegészítést, kiemelést (intellisense).
+- **Atom** - ingyenes open-source szövegszerkesztő, amely a VS Code hoz hasonlóan testre szabható.
+- **Sublime Text* 
+- **Brackets**
+**Backend**  
+- **Visual Studio Code** (terminál, EMET, verziókezelés, bővítmények hozzáadása lehetséges amely a különböző technológiák kódjaihoz ajánl kódkiegészítést, kiemelést (intellisense).
+- **JetBrains - PhpStorm** - IDE, light- heavy PHP applikációk fejlesztéséhez. 
+- **phpMyAdmin** - MySQL menedzselő platform
+**Egyéb környezetek / szoftverek / hardverek**  
+- **XAMPP** - ingyenes, open-source szoftvercsomag.A local tesztelés és fejlesztéshez a PHP, MySQL, Apache2 szoftvercsomagokat 
+- **Google Chrome** - webböngésző
+- **Mozilla Firefox** - webböngésző
+- **Safari** - Mac OS X webböngésző
 
 ## 8. Architekturális terv
 
