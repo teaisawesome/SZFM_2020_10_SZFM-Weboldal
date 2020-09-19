@@ -84,3 +84,8 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 - Belépés gombra kattintva hibaüzenetet kapunk. Ekkor az történt, hogy hibás authentikáció révén rossz belépési adatokat adunk meg.
 - Belépés gombra kattintva nem kapunk hibaüzenetet, helyette ismét az index oldalra kapunk átirányítás. Megjelenik a menüsorban az account név és egyéb lehetőségek, amelyekhez a user hozzáférhet.
 
+**Regisztráció:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;A felhasználó beírja a böngészőbe az URL címét a weboldalnak. Ezután betöltődik a weboldal index (home) oldala. Itt már szépen látszani fog az oldal menüpontjai között a regisztráció lehetőség. Erre a menüpontra kattintva átirányítás történik a regisztrációs oldalra. Ezen az oldalon egy regisztrációs form fogja várni a felhasználót. A regisztrációs adatmezők (név, lakcím, email, telefon, jelszó) kitöltése kötelező. Ha valamely mezőt üresen hagyjuk nem bírunk regisztrálni és az üresen hagyott mezőn megjelenik egy hibaüzenet. Ha minden mezőt kitöltöttek és rákattintunk a regisztráció gombra akkor két opció történhet:
+- Hibaüzenetet kapunk. Egy felhasználó már használja azt az emailt, amelyet megadtunk. Ebben az esetben egy új email cím megadása kötelező!
+- Sikeres regisztráció! Megjelenik egy sikeres regisztrációt jelző üzenet, illetve információt kapunk a belépés opcióról is. 
