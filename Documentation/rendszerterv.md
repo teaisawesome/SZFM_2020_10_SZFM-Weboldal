@@ -14,8 +14,6 @@ A csapatunk négy főből áll, akik motiváltak, lelkesek és szeretik a kihív
 
 Első lépésként felvettük a kapcsolatot a megrendelővel, majd elkészítettük a követelmény specifikációt, a funkcionális specifikációt, majd a rendszert tervet. Második lépésként jött maga a weboldal megalkotása, és az ehhez kapcsolódó háttér programozási is, mint például a regisztrációs és bejelentkező felület.
 
-
-
 ## 3. Üzleti folyamatok modellje
 
 &nbsp;&nbsp;&nbsp;&nbsp;A felhasználó a weboldalt megnyitva, egy átlagos, letisztult képet fog kapni, ahol alapinformációkat szolgáltatunk a helyiségekről, illetve a menüsort felhasználva további funkciókat érhet el, melyekkel további tudásra tesz szert. 
@@ -74,6 +72,15 @@ Ami extra:
     -- Bérszámítást, ahol alkalmazottainak tud árakat szabni,
     -- Nyilván tudja tartani a jelen dolgozóinak listáját,
     -- Műszakokat tudja kezelni, tehát az időbeosztást tudja kialakítani.
+
+## 4. Követelmények
+
+ - Reszponzív weboldal létrehozása
+ - Könnyen kezelhető felület
+ - Regisztrációs - és belépést kezelő felület
+ - Naprakész információk
+ - Látványos ábrák és képek
+
     
 ## 6. Fizikai környezet
 
