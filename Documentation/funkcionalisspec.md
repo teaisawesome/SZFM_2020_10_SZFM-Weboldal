@@ -24,3 +24,9 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 - Hírlevél létrehozása és küldése.
 - Állatok jólétét elősegítő rendszerek integrációja. Beleértve az automata etetők, szűrőrendszer és vízhőmérséklet/koncentráció mérés.
 
+## 4. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket.
+
+### Követelményspecifikáció 5.1.1: 
+
+- Online regisztrációs felület &check;
+    - Felhasználó/jelszó alapú belépés &check;
