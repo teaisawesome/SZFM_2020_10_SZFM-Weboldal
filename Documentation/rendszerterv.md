@@ -6,7 +6,7 @@ Elsődleges célunk egy olyan weboldal létrehozása, ami tökéletesen lefedi a
 
 Távolabbi céljaink, hogy a regisztrált felhasználóknak megnyíljanak további lehetőségek is, mint például a kalóriaszámláló vagy az edzésterv generáló oldal. Így az oldalra belépett felhasználó meg tudja határozni a napi szükséges kalória mennyiségét, valamint könnyen és egyszerűen tud készíteni edzéstervet az ő által szerkesztett gyakorlatokból.
 
-## 2. Projket terv
+## 2. Projekt terv
 
 A mi cégünk egy fiatalokból álló lelkes kis csapat, akik örömmel dolgoznak olyan cégeknek, akik segíteni szeretnének megkönnyíteni az emberek mindennapjait vagy csak kellemes kikapcsolódásra vágynak.
 
@@ -167,7 +167,7 @@ A rendszer felépítését illetően, egy kliens-szerver modellt veszünk alapul
 - Alrendszerek , számítógépek számára nyújt szolgáltatást
 
 **Biztonság:** 
-- HTTP protokoll használata
+- HTTPS protokoll használata
 
 A rendszer felbontását illetően a megvalósítás **objektumorientált felbontás** lesz:
 
