@@ -95,5 +95,10 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 &nbsp;&nbsp;&nbsp;&nbsp;A szolgáltatások menüpontra kattintva átirányítás történik a szolgáltatások oldalra. Itt az összes szolgáltatás megtalálhatóak “card” listába szervezve. Ha a felhasználó rákattint az egyik card-ra, akkor legördül egy blokk az összes arra a szolgáltatásra vonatkozó információval.
 
 **Profil:**
+
 &nbsp;&nbsp;&nbsp;&nbsp;A felhasználó saját profil menüpontjára kattintva a profil oldalon találja magát. Itt lehetősége van megadni a saját profiljára vonatkozó további információkat pl.: bankszámlaszám. Illetve tudja szerkeszteni a már meglévő adatait is. *Esetleg még extra funkcióként profilképet is lehessen beállítani.
+
+**Galéria:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;A galéria menüpontra kattintva a galéria oldalon találjuk magunkat. Itt különböző kis táblázatos elrendezésű cardokat találunk, amiken képek vannak. Ha ezekre a cardokra rákattintunk akkor nagyításba megjelenik a kattintott kép.
 
