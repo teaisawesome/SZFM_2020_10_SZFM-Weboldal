@@ -258,3 +258,22 @@ A **céget** illetően a megvalósítás:
 **ATW** röviden, miért is gondolkodjunk el rajta: 
 
     -- Ingyenes webtárhely szolgáltatás amely 2003  augusztusában látott napvilágot.A szolgáltatás azáltal vált hamar ismertté, hogy versenytársakhoz képest jelentősen nagyobb tárhelyet tud biztosítani a felhasználók számára.
+
+## 13. Karbantartási Terv
+
+&nbsp;&nbsp;&nbsp;&nbsp;Informatikai szempontból a biztonság mindig is fontos volt - lesz, hogy ne engedjük az illetéktelen behatolók számára, hogy feltörjék ügyfeleink adatait vagy az ott dolgozók adatait, még rosszabb esetben a vezérigazgató belépési adatait.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Folyamatos frissítés és az aktuális protokolloknak megfelelő eljárásokat biztosítunk. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;Rendszeres biztonsági mentés készítése, illetve tartalomkezelő rendszer és a hozzá tartozó moduloknak, mindig a legfrissebb verzióra való frissítése amit nyújtunk.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Rendszeres karbantartás mellett szól a weboldal helyezési kérdése a google-t illetően.Folyamatos tesztelések végett - teljesítésének vizsgálata és gyorsaságának vizsgálata.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Folyamatos foglalkoztatottságnak köszönhetően, a weboldal helyezésének rangsorolása is kedvezőbb lesz.
+**Összegezve tehát :** 
+- Fejlesztések, Hibák kijavítása
+- Új elemek létrehozása
+- Oldalak felvétele, kialakítása, törlése
+- Tartalomkezelő frissítése
+- Havi több biztonsági mentés
+- Tárhellyel kapcsolatos ügyintézések
