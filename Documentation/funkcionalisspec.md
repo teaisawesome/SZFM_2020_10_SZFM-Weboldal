@@ -83,6 +83,9 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 - Naprakész információkkal látjuk el a honlap látogatóit, illetve sok hiteles ajánlást is olvashatnak.  
 - A weboldal tartalmaz egy regisztrációs és egy belépést kezelő felületet.
 
+## 8. Használati esetek[use case]
+![UmlDiagram](resources/images/UMLDiagram.png)
+
 ## 9. Forgatókönyvek
 
 **Belépés:**
