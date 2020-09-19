@@ -1,5 +1,12 @@
 # Rendszerterv
 
+## 1. A rendszer célja
+
+Elsődleges célunk egy olyan weboldal létrehozása, ami tökéletesen lefedi az SZFM cég által nyújtott szolgáltatásokat. Ezen felül még tartalmaz sok informatív cikket és tanácsot az egészséges élettel kapcsolatban legyen szó a mozgásról, táplálkozásról, vagy pihenésről. A weboldalt egyszerűre és felhasználóbarátra tervezzük minden korosztály számára. Átlátható és könnyen bővíthető oldal létrehozására törekszünk. A felhasználók egy rövid regisztráció után könnyen be tudnak majd lépni az oldalra. 
+
+Távolabbi céljaink, hogy a regisztrált felhasználóknak megnyíljanak további lehetőségek is, mint például a kalóriaszámláló vagy az edzésterv generáló oldal. Így az oldalra belépett felhasználó meg tudja határozni a napi szükséges kalória mennyiségét, valamint könnyen és egyszerűen tud készíteni edzéstervet az ő által szerkesztett gyakorlatokból.
+
+
 ## 3. Üzleti folyamatok modellje
 
 &nbsp;&nbsp;&nbsp;&nbsp;A felhasználó a weboldalt megnyitva, egy átlagos, letisztult képet fog kapni, ahol alapinformációkat szolgáltatunk a helyiségekről, illetve a menüsort felhasználva további funkciókat érhet el, melyekkel további tudásra tesz szert. 
