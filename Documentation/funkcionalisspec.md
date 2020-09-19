@@ -76,6 +76,13 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 
 - Reszponzív weboldal &check;
 
+## 7. Követelménylista
+
+- Olyan weboldal létrehozása, amely egyszerű, egyértelmű, naprakész információkat tartalmaz és könnyű hozzáférést biztosít a felhasználóknak.  
+- Célunk az egyszerűség, szeretnénk minden korosztálynak elérhető és informatív oldalt létrehozni.  
+- Naprakész információkkal látjuk el a honlap látogatóit, illetve sok hiteles ajánlást is olvashatnak.  
+- A weboldal tartalmaz egy regisztrációs és egy belépést kezelő felületet.
+
 ## 9. Forgatókönyvek
 
 **Belépés:**
