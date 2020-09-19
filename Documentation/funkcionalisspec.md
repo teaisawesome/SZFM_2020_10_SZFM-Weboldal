@@ -76,6 +76,13 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 
 - Reszponzív weboldal &check;
 
+## 7. Követelménylista
+
+- Olyan weboldal létrehozása, amely egyszerű, egyértelmű, naprakész információkat tartalmaz és könnyű hozzáférést biztosít a felhasználóknak.  
+- Célunk az egyszerűség, szeretnénk minden korosztálynak elérhető és informatív oldalt létrehozni.  
+- Naprakész információkkal látjuk el a honlap látogatóit, illetve sok hiteles ajánlást is olvashatnak.  
+- A weboldal tartalmaz egy regisztrációs és egy belépést kezelő felületet.
+
 ## 9. Forgatókönyvek
 
 **Belépés:**
@@ -83,4 +90,22 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 &nbsp;&nbsp;&nbsp;&nbsp;A felhasználó beírja a böngészőbe az URL címét a weboldalnak. Ezután betöltődik a weboldal index (home) oldala. Itt már szépen látszani fog az oldal menüpontjai között a belépés lehetőség. Erre a menüpontra kattintva átirányítás történik a belépés oldalra. Ezen az oldalon egy belépés form fogja várni a felhasználót. Az email és a jelszó mezők kitöltése kötelező érvényű. Ha begépelte az email-jelszó párost akkor két lehetőség történhet.  
 - Belépés gombra kattintva hibaüzenetet kapunk. Ekkor az történt, hogy hibás authentikáció révén rossz belépési adatokat adunk meg.
 - Belépés gombra kattintva nem kapunk hibaüzenetet, helyette ismét az index oldalra kapunk átirányítás. Megjelenik a menüsorban az account név és egyéb lehetőségek, amelyekhez a user hozzáférhet.
+
+**Regisztráció:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;A felhasználó beírja a böngészőbe az URL címét a weboldalnak. Ezután betöltődik a weboldal index (home) oldala. Itt már szépen látszani fog az oldal menüpontjai között a regisztráció lehetőség. Erre a menüpontra kattintva átirányítás történik a regisztrációs oldalra. Ezen az oldalon egy regisztrációs form fogja várni a felhasználót. A regisztrációs adatmezők (név, lakcím, email, telefon, jelszó) kitöltése kötelező. Ha valamely mezőt üresen hagyjuk nem bírunk regisztrálni és az üresen hagyott mezőn megjelenik egy hibaüzenet. Ha minden mezőt kitöltöttek és rákattintunk a regisztráció gombra akkor két opció történhet:
+- Hibaüzenetet kapunk. Egy felhasználó már használja azt az emailt, amelyet megadtunk. Ebben az esetben egy új email cím megadása kötelező!
+- Sikeres regisztráció! Megjelenik egy sikeres regisztrációt jelző üzenet, illetve információt kapunk a belépés opcióról is. 
+
+**Szolgáltatások:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;A szolgáltatások menüpontra kattintva átirányítás történik a szolgáltatások oldalra. Itt az összes szolgáltatás megtalálhatóak “card” listába szervezve. Ha a felhasználó rákattint az egyik card-ra, akkor legördül egy blokk az összes arra a szolgáltatásra vonatkozó információval.
+
+**Profil:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;A felhasználó saját profil menüpontjára kattintva a profil oldalon találja magát. Itt lehetősége van megadni a saját profiljára vonatkozó további információkat pl.: bankszámlaszám. Illetve tudja szerkeszteni a már meglévő adatait is. *Esetleg még extra funkcióként profilképet is lehessen beállítani.
+
+**Galéria:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;A galéria menüpontra kattintva a galéria oldalon találjuk magunkat. Itt különböző kis táblázatos elrendezésű cardokat találunk, amiken képek vannak. Ha ezekre a cardokra rákattintunk akkor nagyításba megjelenik a kattintott kép.
 
