@@ -188,3 +188,39 @@ Hiperhivatkozással legtöbbször az internet böngészése közben találkozhat
 **Átirányítás:** Átirányításnak azt nevezzük, amikor egy lap nem tartalmaz szöveget, hanem csak egy hivatkozást egy másik lapra, a céllapra. Ha rákattintunk egy átirányító lapra mutató belső hivatkozásra, akkor automatikusan a céllapra jutunk. Ha ezt a belső linket zöld színben látod, akkor a te beállításaidban, ahol ki-bekapcsolható, be van kapcsolva az a segédeszköz, hogy az átirányításra mutató belső linkek kék helyett zölden jelenjenek meg.
 *Forrás: https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:%C3%81tir%C3%A1ny%C3%ADt%C3%A1s*
 
+**Session/Munkamenet:** A munkamenet (angolul session) a számítógép-hálózatoknál két számítógép közötti kommunikáció olyan formája, mely során az egyik (vagy mindkét) gép átmenetileg adatokat tárol a másikról; ennek segítségével egy állapotmentes protokollon keresztül is lehet állapotokat megőrizve kommunikálni.
+*Forrás: https://hu.wikipedia.org/wiki/Munkamenet*
+
+**MySQL: A MySQL** egy többfelhasználós, többszálú, SQL-alapú relációs adatbázis-kezelő szerver.
+*Forrás: https://hu.wikipedia.org/wiki/MySQL*
+
+**Relációs adatbázis:** Relációs adatbázisnak nevezzük a relációs adatmodell elvén létrehozott adatok összességét, a relációs adatmodell fogalomrendszerében meghatározott ún. relációk egy véges halmazát. Relációs adatbázisokat relációsadatbázis-kezelőkkel hozhatunk létre, szerkeszthetünk és törölhetünk.
+*Forrás: https://hu.wikipedia.org/wiki/Rel%C3%A1ci%C3%B3s_adatb%C3%A1zis*
+
+**Adatbázis:** Az adatbázis azonos minőségű (jellemzőjű), többnyire strukturált adatok összessége, amelyet egy tárolására, lekérdezésére és szerkesztésére alkalmas szoftver eszköz kezel.
+*Forrás: https://hu.wikipedia.org/wiki/Adatb%C3%A1zis*
+
+**Szövegdoboz:** A szöveg tördeléséhez használhatunk szövegdobozokat így látványosabban tudunk elkülöníteni bekezdéseket vagy témákat.
+
+**Szövegmező:** A Szövegmező típusú mező egy rövid, általában néhány szóból álló szabad szöveg bevitelére, megadására szolgál. A kitöltőket a "Kitöltési segédlet"-be írt instrukciókkal, szövegmező maszk, illetve reguláris kifejezés (regexp) alkalmazásával lehet befolyásolni abban, hogy a szabad szöveges válaszadási lehetőség ellenére, összehasonlítható, kiértékelhető válaszokat adjanak.
+*Forrás: https://www.infoartnet.hu/urlap-szovegmezo*
+
+**Checkbox:** A checkbox (check box, tickbox, tick box) is a GUI widget that permits the user to make a binary choice, i.e. a choice between one of two possible mutually exclusive options. For example, the user may have to answer 'yes' (checked) or 'no' (not checked) on a simple yes/no question.
+*Forrás: https://en.wikipedia.org/wiki/Checkbox*
+
+**Űrlap:** Az űrlapokat a weboldalak készítésénél számos célra felhasználhatjuk, például arra, hogy segítségével a látogatók üzenetet, visszajelzést küldhessenek az üzemeltetőnek, árukat rendelhessenek, bejelentkezhessenek, és így tovább.
+*Forrás: http://tamop412.elte.hu/tananyagok/weblapkeszites/lecke9_lap1.html*
+
+**HTTP metódusok:** HTTP protokoll nyolcféle metódust definiál. A metódusok (más szóval verbek) a megadott erőforráson végzendő műveletet határozzák meg.
+ - HEAD: Ugyanazt adja vissza, mint a GET, csak magát az üzenettestet hagyja ki a válaszból.  
+ - GET: A megadott erőforrás letöltését kezdeményezi. Ez messze a leggyakrabban használt metódus.  
+ - POST: Feldolgozandó adatot küld fel a szerverre. Például HTML űrlap tartalmát. Az adatot az üzenettest tartalmazza.  
+ - PUT: Feltölti a megadott erőforrást.  
+ - DELETE: Törli a megadott erőforrást.  
+ - TRACE: Visszaküldi a kapott kérést. Ez akkor hasznos, ha a kliens oldal arra kíváncsi, hogy a köztes gépek változtatnak-e, illetve mit változtatnak a kérésen.  
+ - OPTIONS: Visszaadja a szerver által támogatott HTTP metódusok listáját.  
+ - CONNECT: Átalakítja a kérést transzparens TCP/IP tunnellé. Ezt a metódust jellemzően SSL kommunikáció megvalósításához használják.  
+*Forrás: https://hu.wikipedia.org/wiki/HTTP#Met%C3%B3dusok*
+
+**Kliens-szerver modell:** A kliens-szerver (magyarul: ügyfél-kiszolgáló) kifejezést először az 1980-as években használták olyan számítógépekre (PC-kre) amelyek hálózatban működtek. A ma ismert modell a 80-as évek végén vált elfogadottá. A kliens-szerver szoftverarchitektúra egy sokoldalú, üzenetalapú és moduláris infrastruktúra amely azért alakult ki, hogy a használhatóságot, rugalmasságot, együttműködési lehetőségeket és bővíthetőséget megnövelje a centralizált, nagyszámítógépes, időosztásos rendszerekhez képest.
+*Forrás: https://hu.wikipedia.org/wiki/Kliens-szerver_architekt%C3%BAra*
