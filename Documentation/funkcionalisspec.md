@@ -109,3 +109,20 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 
 &nbsp;&nbsp;&nbsp;&nbsp;A galéria menüpontra kattintva a galéria oldalon találjuk magunkat. Itt különböző kis táblázatos elrendezésű cardokat találunk, amiken képek vannak. Ha ezekre a cardokra rákattintunk akkor nagyításba megjelenik a kattintott kép.
 
+## 7. Fogalomszótár
+
+**HTML5:** A HTML5 a HTML (Hypertext Markup Language, a web fő jelölőnyelve) korábbi verzióinak az átdolgozott változata. A kifejlesztésének egyik fő célja, hogy a webes alkalmazásokhoz ne legyen szükség pluginek (pl. Adobe Flash, Microsoft Silverlight, Oracle JavaFX) telepítésére. 
+*Forrás: https://hu.wikipedia.org/wiki/HTML5*
+
+**Php:** A PHP egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére. Az első szkriptnyelvek egyike, amely külső fájl használata helyett HTML oldalba ágyazható. A kódot a webszerver PHP feldolgozó modulja értelmezi, ezzel dinamikus weboldalakat hozva létre.
+*Forrás: https://hu.wikipedia.org/wiki/PHP*
+
+**Css:** A CSS (Cascading Style Sheets, magyarul: lépcsőzetes stíluslapok) a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le. Ezenkívül használható bármilyen XML alapú dokumentum stílusának leírására is, mint például az SVG, XUL stb. A CSS specifikációját a World Wide Web Consortium felügyeli.
+*Forrás: https://hu.wikipedia.org/wiki/Cascading_Style_Sheets*
+
+**Png:** A PNG (Portable Network Graphics) képek tárolására, veszteségmentes tömörítésére alkalmas fájlformátum. Kiterjesztésként a .png írásmóddal használják. 
+*Forrás: https://hu.wikipedia.org/wiki/PNG*
+
+**Jpeg:** A JPEG – (Joint Photographic Experts Group) képek tárolására alkalmas fájlformátum. Kiterjesztéseként a .jpeg, .jpg, ritkábban a .jpe használt. A JPEG normát 1992-ben fogadták el, ami különböző képtömörítési módokat ír le. A képen lévő információt veszteségesen tömöríti ez a formátum.
+*Forrás: https://hu.wikipedia.org/wiki/JPEG*
+
