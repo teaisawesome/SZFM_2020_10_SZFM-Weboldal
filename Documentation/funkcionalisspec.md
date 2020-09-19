@@ -126,3 +126,20 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 **Jpeg:** A JPEG – (Joint Photographic Experts Group) képek tárolására alkalmas fájlformátum. Kiterjesztéseként a .jpeg, .jpg, ritkábban a .jpe használt. A JPEG normát 1992-ben fogadták el, ami különböző képtömörítési módokat ír le. A képen lévő információt veszteségesen tömöríti ez a formátum.
 *Forrás: https://hu.wikipedia.org/wiki/JPEG*
 
+**Címsor:** A webböngészőkben a címsor vagy címsáv (address bar, location bar, URL bar) a böngésző ablakának az a része (vezérlőeleme vagy controlja), ami az aktuálisan mutatott weboldal URL-jét mutatja, illetve lehetővé teszi a betöltendő URL begépelését. A legtöbb böngészőben működik az automatikus kiegészítés a cím beírása közben – ez általában a böngészési előzmények alapján történik. 
+*Forrás: https://hu.wikipedia.org/wiki/C%C3%ADmsor_(b%C3%B6ng%C3%A9sz%C5%91elem)*
+
+**Regisztráció:** A felhasználó saját adatai(email cím, jelszó) megadásával be tud regisztrálni az oldalra, így több funkciót (webshop, akciókról email) ér el és előnyökhöz (gyorsabb vásárlás) is juthat.
+
+**Belépés:** A regisztráció után, a felhasználónak csak be kell lépnie az oldalra, így nem kell mindig regisztrálnia.
+
+**URL:** Az URL vagy más néven webcím (mely a Uniform Resource Locator [egységes erőforrás-helymeghatározó] rövidítése), az interneten megtalálható bizonyos erőforrások (például szövegek, képek) szabványosított címe. 
+*Forrás: https://hu.wikipedia.org/wiki/URL*
+
+**Menüsor:** Az aktív weboldalon használható parancsok csoportjai. 
+*Forrás: https://informatika.gtportal.eu/?f0=szotar*
+
+**Hibajavítás:** Az informatikában és az információelméletben fontos gyakorlati kérdés a hibák felismerése és kijavítása. A hibafelismerés egy képesség az adó és a vevő közötti átvitel folyamán a zaj vagy egyéb zavar okozta rendellenességek miatti torzulások jelzésére. A hibajavítási képesség lehetővé teszi a hiba helyének felismerését és kijavítását is. 
+*Forrás: https://hu.wikipedia.org/wiki/Hibajav%C3%ADt%C3%A1s*
+
+
