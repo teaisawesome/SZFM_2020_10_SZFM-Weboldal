@@ -1,6 +1,6 @@
 # FunkcionálisSpecfikáció
 
-## 1 Rendszer céljai és nem céljai
+## 1. Rendszer céljai és nem céljai
 
 ### A rendszer céljai:
 
@@ -75,3 +75,12 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 ### Követelményspecifikáció 5.1.10:
 
 - Reszponzív weboldal &check;
+
+## 9. Forgatókönyvek
+
+**Belépés:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;A felhasználó beírja a böngészőbe az URL címét a weboldalnak. Ezután betöltődik a weboldal index (home) oldala. Itt már szépen látszani fog az oldal menüpontjai között a belépés lehetőség. Erre a menüpontra kattintva átirányítás történik a belépés oldalra. Ezen az oldalon egy belépés form fogja várni a felhasználót. Az email és a jelszó mezők kitöltése kötelező érvényű. Ha begépelte az email-jelszó párost akkor két lehetőség történhet.  
+- Belépés gombra kattintva hibaüzenetet kapunk. Ekkor az történt, hogy hibás authentikáció révén rossz belépési adatokat adunk meg.
+- Belépés gombra kattintva nem kapunk hibaüzenetet, helyette ismét az index oldalra kapunk átirányítás. Megjelenik a menüsorban az account név és egyéb lehetőségek, amelyekhez a user hozzáférhet.
+
