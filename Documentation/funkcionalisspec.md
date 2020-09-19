@@ -36,3 +36,13 @@ A saját profil adatoknál a saját beosztásukat/munkarendet is megtekinthetik.
 - Online/Lokális személyzet nyilvántartása &check;
     - Felhasználó/jelszó alapú belépés &check;
     - Műszak/ledolgozott órák számának megtekintése/jelenleg megkeresett fizetés &check;
+
+### Követelményspecifikáció 5.1.3:
+
+- Online felületért felelős céges dolgozók legyenek képesek új termék feltöltésére/személyes edzés|táplálkozás feltöltésére/új információk feltöltése szolgáltatásainkkal kapcsolatban &check;
+
+### Követelményspecifikáció 5.1.4:
+
+- Időpontfoglalás a vendégek számára &check;
+    - Lefoglalt időpontok megjelenítése/Tiltása, ha foglalt &check;
+        - Időpontfoglalás &check;
