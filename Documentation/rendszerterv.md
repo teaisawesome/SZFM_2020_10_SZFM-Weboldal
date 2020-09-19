@@ -73,16 +73,22 @@ Szolgáltató lista:
 **Fejlesztési szempontok / környezetek:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Mivel webes platformra fejlesszünk ezért webes frontend, backend technológiákat fogunk alkalmazni. Ezekhez különböző fejlesztői környezetek (IDE)-k állnak rendelkezésre.  
+
 **Frontend**  
+
 - **Visual Studio Code** (terminál, EMET, verziókezelés, bővítmények hozzáadása lehetséges amely a különböző technológiák kódjaihoz ajánl kódkiegészítést, kiemelést (intellisense).
 - **Atom** - ingyenes open-source szövegszerkesztő, amely a VS Code hoz hasonlóan testre szabható.
 - **Sublime Text* 
 - **Brackets**
+
 **Backend**  
+
 - **Visual Studio Code** (terminál, EMET, verziókezelés, bővítmények hozzáadása lehetséges amely a különböző technológiák kódjaihoz ajánl kódkiegészítést, kiemelést (intellisense).
 - **JetBrains - PhpStorm** - IDE, light- heavy PHP applikációk fejlesztéséhez. 
 - **phpMyAdmin** - MySQL menedzselő platform
+
 **Egyéb környezetek / szoftverek / hardverek**  
+
 - **XAMPP** - ingyenes, open-source szoftvercsomag.A local tesztelés és fejlesztéshez a PHP, MySQL, Apache2 szoftvercsomagokat 
 - **Google Chrome** - webböngésző
 - **Mozilla Firefox** - webböngésző
