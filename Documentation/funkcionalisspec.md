@@ -246,3 +246,10 @@ Hiperhivatkozással legtöbbször az internet böngészése közben találkozhat
 
 **Kliens-szerver modell:** A kliens-szerver (magyarul: ügyfél-kiszolgáló) kifejezést először az 1980-as években használták olyan számítógépekre (PC-kre) amelyek hálózatban működtek. A ma ismert modell a 80-as évek végén vált elfogadottá. A kliens-szerver szoftverarchitektúra egy sokoldalú, üzenetalapú és moduláris infrastruktúra amely azért alakult ki, hogy a használhatóságot, rugalmasságot, együttműködési lehetőségeket és bővíthetőséget megnövelje a centralizált, nagyszámítógépes, időosztásos rendszerekhez képest.
 *Forrás: https://hu.wikipedia.org/wiki/Kliens-szerver_architekt%C3%BAra*  
+
+## 10. Képernyőtervek
+
+|![UmlDiagram](resources/images/KezdoOldal.png)|![UmlDiagram](resources/images/Regisztracio.png)| ![UmlDiagram](resources/images/Profil.png)| ![UmlDiagram](resources/images/Rolunk.png)
+|:-----:|-----:|-----:|-----:|
+|![UmlDiagram](resources/images/Szolgaltatasok.png)|![UmlDiagram](resources/images/Bolt.png)|![UmlDiagram](resources/images/Edzesterv.png)|![UmlDiagram](resources/images/Forum.png)|
+|![UmlDiagram](resources/images/Galeria.png)|![UmlDiagram](resources/images/idopontfoglalas.png)|![UmlDiagram](resources/images/kapcsolat.png)|![UmlDiagram](resources/images/Belepes.png)
