@@ -162,7 +162,7 @@ A rendszer fő komponensei a Frontend, Backend és az Adatbázis. A Frontend fel
 Az ezek közötti kapcsolat a következő:
 A Frontend részen megadja a felhasználó a feldolgozandó adatokat(felhasználónév, személyre szabott edzésterv, stb.), amely átküldi ezen adatokat a Backend részére, illetve a Backend továbbadhatja az adatokat az Adatbázisnak, amennyiben ezen adatokat perzisztensen tárolni szükséges.
 
-[Frontend-Backend-Database](./resources/images/fe_be_db.png "")
+![Frontend-Backend-Database](./resources/images/fe_be_db.png "")
 
 Bejelentkezés esetén a következő folyamat játszódik le nagyvonalakban:
 1. A felhasználó a bejelentkezési oldalon megadja a felhasználónevét és jelszavát.
