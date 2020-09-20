@@ -125,6 +125,56 @@ Szolgáltató lista:
 - **Mozilla Firefox** - webböngésző
 - **Safari** - Mac OS X webböngésző
 
+## 7. Absztrakt domain modell
+
+### Domain specifikáció  
+
+Cégünk a weboldalt MVC architekturális modellt alkalmazva fogja megvalósítani. A Modell megfeleltethető az Adatbázisnak, a View megfeleltethető a Frontendnek, illetve a Control megfeleltethető a Backendnek.  
+A megvalósítás menete három fő részre fog bomlani.  
+1. Az adatbázis és az azon belüli táblák létrehozása  
+    1. Ez az adatbázistervben leírt SQL kód használatával fog történni.  
+2. A webalkalmazás fejlesztése  
+    1. Frontend fejlesztés  
+        1. Az alapvető megjelenés váza  
+        2. A megjelenés dizájnja  
+        3. Kliensoldali funkcionalitás  
+3. Backend fejlesztés  
+    1. Adatbáziskezelés  
+    2. Adatok egyéb módon való feldolgozása  
+    3. HTTP átirányítások kezelése  
+
+### Fogalmak
+
+**Frontend:** A weboldalnak azon része, amelyet a felhasználó meg tud tekinteni, illetve interakcióba léphet vele.
+
+**Backend:** A weboldalnak azon része, amely az adatok feldolgozásáért felelős, illetve az üzleti logikát itt valósítjuk meg.
+
+**Adatbázis:** Az adatok perzisztens tárolására szolgál.
+
+**Perzisztens adattárolás:** Adatok hosszútávú tárolása.
+
+**MVC (Model-View-Controll):** Háromrétegű tervezési minta, amely elkülöníti a felhasználói felületet, az üzleti logikát és az adatbázist vagy egyéb perzisztens adattárolási módszert.
+
+### Absztrakt komponensek, ezek kapcsolatai
+
+A rendszer fő komponensei a Frontend, Backend és az Adatbázis. A Frontend felelős a weblap megjelenítéséért. A Frontend az, amit a “felhasználó lát”, illetve interakcióba léphet. Ezek jelentik a weboldal tartalmát, a menüsorokat, stb. A Backend felelős az adatok feldolgozásáért, illetve a Frontend “kiszolgálásáért” és az Üzleti Logika megvalósításáért. Az Adatbázis felelős az adatok perzisztens tárolásáért.
+
+Az ezek közötti kapcsolat a következő:
+A Frontend részen megadja a felhasználó a feldolgozandó adatokat(felhasználónév, személyre szabott edzésterv, stb.), amely átküldi ezen adatokat a Backend részére, illetve a Backend továbbadhatja az adatokat az Adatbázisnak, amennyiben ezen adatokat perzisztensen tárolni szükséges.
+
+[Frontend-Backend-Database](./resources/images/fe_be_db.png "")
+
+Bejelentkezés esetén a következő folyamat játszódik le nagyvonalakban:
+1. A felhasználó a bejelentkezési oldalon megadja a felhasználónevét és jelszavát.
+2. Ezeket az adatokat a Frontend elküldi a Backend részére, amely megvizsgálja, hogy a bejelentkezéshez minden szükséges adatot megadott-e a felhasználó
+    1. Amennyiben ez nem történt meg, a felhasználónak visszaküld a Backend egy hibaüzenetet, amely elmagyarázza, hogy miért nem sikerült a bejelentkezés.
+    2. Amennyiben ez megtörtént, a Backend összehasonlítja a felhasználó által megadott adatokat az Adatbázisban tárolt adatokkal.
+        1. Amennyiben a két adat megegyezik, a felhasználót a rendszer sikeresen authentikálta, majd a Backend elküldi a felhasználónak azt az oldalt, amelyre sikeres bejelentkezés után átirányítja a rendszer.
+        2. Amennyiben a két adat nem egyezik meg, a Backend visszaküld a felhasználónak egy hibaüzenetet, amely elmagyarázza, hogy miért nem sikerült a belépés
+3. A felhasználó sikeresen bejelentkezett.
+
+
+
 ## 8. Architekturális terv
 
 &nbsp;&nbsp;&nbsp;&nbsp;Maga a rendszer tervezési mintája a három rétegű alkalmazást testesíti meg:
