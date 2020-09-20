@@ -252,4 +252,4 @@ Hiperhivatkozással legtöbbször az internet böngészése közben találkozhat
 |![UmlDiagram](resources/images/KezdoOldal.png)|![UmlDiagram](resources/images/Regisztracio.png)| ![UmlDiagram](resources/images/Profil.png)| ![UmlDiagram](resources/images/Rolunk.png)
 |:-----:|-----:|-----:|-----:|
 |![UmlDiagram](resources/images/Szolgaltatasok.png)|![UmlDiagram](resources/images/Bolt.png)|![UmlDiagram](resources/images/Edzesterv.png)|![UmlDiagram](resources/images/Forum.png)|
-|![UmlDiagram](resources/images/Galeria.png)|![UmlDiagram](resources/images/idopontfoglalas.png)|![UmlDiagram](resources/images/kapcsolat.png)|![UmlDiagram](resources/images/Belepes.png)
+|![UmlDiagram](resources/images/Galeria.png)|![UmlDiagram](resources/images/idopontfoglalas.png)|![UmlDiagram](resources/images/Kapcsolat.png)|![UmlDiagram](resources/images/Belepes.png)
