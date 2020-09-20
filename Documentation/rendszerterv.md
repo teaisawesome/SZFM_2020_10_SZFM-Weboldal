@@ -81,6 +81,14 @@ Ami extra:
  - Naprakész információk
  - Látványos ábrák és képek
 
+## 5. Funkcionális terv
+
+&nbsp;&nbsp;&nbsp;&nbsp;A fejlesztendő weboldalt minden olyan felhasználónak ajánlani tudjuk, akik rendelkeznek alapvető informatikai tudással. Gondolunk itt arra, hogy képes megnyitni egy böngészőt aztán rákeresni a weboldalra. A weboldal felépítésekor olyan elemeket használtunk amikkel már találkozott korábban a felhasználó. Pl.: Menüsor, Gombok, Szövegmező stb. Ezeket a különböző design trendekkel / módszerekkel még felhasználóbarátabbra lett tervezve.  
+&nbsp;&nbsp;&nbsp;&nbsp;Az átlagfelhasználó általában azért fogja felkeresni az oldalt, hogy információt gyűjtsön magáról a komplexumról és szolgáltatásairól. Ehhez nincs szükség bejelentkezéshez csak annyi a dolga, hogy a felső menüsorból kiválasztja a szolgáltatások vagy kapcsolat menüpontok valamelyikét és máris naprakész információkat tud megtekinteni. Azok, akik már találkoztak / üdültek a komplexumban azok esetleg extra funkciókat (premium tagság, edzésterv kalkulátor stb.) is kipróbálnák, amit a weboldal nyújt. Erre már regisztrált tagság szükséges. Sikeres belépés után ezeket a funkciókat szintén eléri a menüsorból.   
+&nbsp;&nbsp;&nbsp;&nbsp;Lényegében minden egyes topic / információ csoport elérhető a menüsoron keresztül.
+Saját személyzetünkre vonatkozó weboldal funkciók szintén regisztrált tagság szükséges. Ezeket munkába álláskor / weboldal elkészültekor automatikusan ki fogjuk osztani és minden munkaügyhöz kapcsolódó funkciót elérnek majd.  
+
+*kiegészítés később*
     
 ## 6. Fizikai környezet
 
