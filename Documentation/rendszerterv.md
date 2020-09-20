@@ -238,6 +238,11 @@ CREATE TABLE FORUM(
     CONSTRAINT FK_USER_ID FOREIGN KEY (USER_ID) REFERENCES USERS(ID)    
 );
 ```
+
+## 10. Implementációs terv
+
+![Osztály UML Diagram](https://raw.githubusercontent.com/teaisawesome/SZFM_2020_10_SZFM-Weboldal/master/Documentation/resources/images/Osztaly_UML_SZFM.jpg "Adatbázis UML Diagram")
+
 ## 11. Tesztterv
 
 &nbsp;&nbsp;&nbsp;&nbsp;A tesztterv célja a tesztelés teljes körűségének biztosítása, a tesztelés során alkalmazott eljárások és megoldások meghatározásával. 
