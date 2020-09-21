@@ -11,6 +11,13 @@
     <div class="container">
         <h1>Hello World! 🚀</h1>
         <h2>Üdvözöllek a <strong>SZFM<strong> index oldalán!</h2>
+
+        <?php
+            if(isset($_SESSION['logged']) && $_SESSION['logged'])
+            {
+                echo "<p>Belépet felhasználó: " . $_SESSION['user'] . "</p>";
+            }
+        ?>
     </div>
 </body>
 </html>

@@ -22,6 +22,21 @@ class Router
             $request->action = "index";
             $request->params = "data";
         }
+
+        if($url == $domain . 'login')
+        {
+            $request->controller = "Login";
+            $request->action = "index";
+            $request->params = "data";
+        }
+        if($url == $domain . 'loginvalidation')
+        {
+            $request->controller = "Login";
+            $request->action = "authentication";
+            $request->params = [$_POST['email'], $_POST['pwd']];
+        }
+
+
     }
 }
 ?>
