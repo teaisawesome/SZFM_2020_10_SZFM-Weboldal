@@ -25,9 +25,20 @@ class Controller
     function view($filename)
     {
         extract($this->vars);
+
+        $path = ROOT . "view/" . $filename;
         
         ob_start();
-            require(ROOT . "view/" . $filename . '.php');
+
+        if( file_exists($path . '.php') )
+        {
+            require($path . '.php');
+        }
+        else if( file_exists($path . '.html') )
+        {
+            require($path . '.html');
+        }
+
         ob_end_flush();
     }
 }

@@ -5,10 +5,12 @@ class Router
     {
         $url = trim($url);
 
+        $domain = "/SZFM_2020_10_SZFM-Weboldal/app/";
+
         /**
          * /mvcpattern/ - fő mappára át kell írni
          */
-        if($url == "/mvcpattern/")
+        if($url == $domain)
         {
             $request->controller = "Home";
             $request->action = "index";
