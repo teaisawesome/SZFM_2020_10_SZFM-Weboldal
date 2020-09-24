@@ -18,7 +18,7 @@ class User{
     /**
      * Konstruktor
      */
-    public function __construct($id = NULL, $name = NULL, $password = NULL, $address = NULL, $email = NULL, $phone = NULL, $card = NULL, $isPremiumMember = NULL, $image = NULL, $rank = NULL)
+    public function __construct($id = NULL, $name = NULL, $password = NULL, $address = NULL, $email = NULL, $phone = NULL, $card = NULL, $isPremiumMember = NULL, $image = NULL)
     {
         $this->id = $id;
         $this->name = $name;
@@ -29,12 +29,12 @@ class User{
         $this->card = $card;
         $this->isPremiumMember = $isPremiumMember;
         $this->image = $image;
-        $this->rank = $rank;
+        $this->rank = 1;
     }
     /**
      * Getterek/Setterek
      */
-    public function getID(){ return $this->id; }
+    public function getID(){ return intval($this->id); }
     public function setID($id){ $this->id = $id; }
     public function getName(){ return $this->name; }
     public function setName($name){ $this->name = $name; }
@@ -48,11 +48,11 @@ class User{
     public function setPhone($phone){ $this->phone = $phone; }
     public function getCard(){ return $this->card; }
     public function setCard($card){ $this->card = $card; }
-    public function getIsPremiumMember(){ return $this->isPremiumMember; }
+    public function getIsPremiumMember(){ return intval($this->isPremiumMember); }
     public function setIsPremiumMember($isPremiumMember){ $this->isPremiumMember = $isPremiumMember; }
     public function getImage(){ return $this->image; }
     public function setImage($image){ $this->image = $image; }
-    public function getRank(){ return $this->rank; }
+    public function getRank(){ return intval($this->rank); }
     public function setRank($rank){ $this->rank = $rank; }
 
     /**
@@ -66,7 +66,7 @@ class User{
         $this->name = $name;
         return $this;
     }
-    public function Password($name){
+    public function Password($password){
         $this->password = $password;
         return $this;
     }
