@@ -6,26 +6,30 @@
 class User{
     private $id;
     private $name;
+    private $password;
     private $address;
     private $email;
     private $phone;
     private $card;
     private $isPremiumMember;
     private $image;
+    private $rank;
 
     /**
      * Konstruktor
      */
-    public function __construct($id = NULL, $name = NULL, $address = NULL, $email = NULL, $phone = NULL, $card = NULL, $isPremiumMember = NULL, $image = NULL)
+    public function __construct($id = NULL, $name = NULL, $password = NULL, $address = NULL, $email = NULL, $phone = NULL, $card = NULL, $isPremiumMember = NULL, $image = NULL, $rank = NULL)
     {
         $this->id = $id;
         $this->name = $name;
+        $this->password = $password;
         $this->address = $address;
         $this->email = $email;
         $this->phone = $phone;
         $this->card = $card;
         $this->isPremiumMember = $isPremiumMember;
         $this->image = $image;
+        $this->rank = $rank;
     }
     /**
      * Getterek/Setterek
@@ -34,6 +38,8 @@ class User{
     public function setID($id){ $this->id = $id; }
     public function getName(){ return $this->name; }
     public function setName($name){ $this->name = $name; }
+    public function getPassword(){ return $this->password; }
+    public function setPassword($password){ $this->password = $password; }
     public function getAddress(){ return $this->address; }
     public function setAddress($address){ $this->address = $address; }
     public function getEmail(){ return $this->email; }
@@ -46,6 +52,8 @@ class User{
     public function setIsPremiumMember($isPremiumMember){ $this->isPremiumMember = $isPremiumMember; }
     public function getImage(){ return $this->image; }
     public function setImage($image){ $this->image = $image; }
+    public function getRank(){ return $this->rank; }
+    public function setRank($rank){ $this->rank = $rank; }
 
     /**
      * Builder pattern szerűség
@@ -56,6 +64,10 @@ class User{
     }
     public function Name($name){
         $this->name = $name;
+        return $this;
+    }
+    public function Password($name){
+        $this->password = $password;
         return $this;
     }
     public function Email($email)
@@ -81,6 +93,10 @@ class User{
     }
     public function Image($image){
         $this->image = $image;
+        return $this;
+    }
+    public function Rank($rank){
+        $this->rank = $rank;
         return $this;
     }
     
