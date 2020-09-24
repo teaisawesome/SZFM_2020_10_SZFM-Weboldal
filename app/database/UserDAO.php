@@ -1,6 +1,6 @@
 <?php
 
-require(/*ROOT .*/ "../classes/User.php");
+require(ROOT . "classes/User.php");
 require("Database.php");
 
 class UserDAO
