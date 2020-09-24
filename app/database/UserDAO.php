@@ -1,6 +1,8 @@
 <?php
 
-require(ROOT . "classes/User.php");
+define('ROOT', str_replace("database/UserDAO.php", "", $_SERVER["SCRIPT_FILENAME"]));
+
+require(ROOT . "/classes/User.php");
 require("Database.php");
 
 class UserDAO
@@ -16,13 +18,15 @@ class UserDAO
     {
         $this->con = Database::con();
         //INSERT INTO `users` (`ID`, `NAME`, `PASSWORD`, `ADDRESS`, `EMAIL`, `PHONE_NUMBER`, `RANK_ID`, `ISPREMIUMMEMBER`, `IMAGE`) VALUES (NULL, 'asdsad', 'sadsadasdsad', 'asdadasdadsadasd', 'asdasdadadasdsad', 'sadsadsadasdsa', '1', '1', 'sadsdwdasdafsgvdfgvscsad');
-        $this->insertUserString = $this->con->prepare("INSERT INTO `USERS` (`ID`, `NAME`, `PASSWORD`, `ADDRESS`, `EMAIL`, `PHONE_NUMBER`, `RANK_ID`, `ISPREMIUMMEMBER`, `IMAGE`, `CARD`) VALUES (NULL, :name, :password, :address, :email, :phone_number, 1, :ispremiummember, :image, :card);");
-        
+        //$this->insertUserString = $this->con->prepare("INSERT INTO `USERS` (`ID`, `NAME`, `PASSWORD`, `ADDRESS`, `EMAIL`, `PHONE_NUMBER`, `RANK_ID`, `ISPREMIUMMEMBER`, `IMAGE`, `CARD`) VALUES (NULL, :name, :password, :address, :email, :phone_number, 1, :ispremiummember, :image, :card);");
+        $this->insertUserString = $this->con->prepare("INSERT INTO `USERS` (`NAME`, `PASSWORD`, `ADDRESS`, `EMAIL`, `PHONE_NUMBER`, `RANK_ID`, `ISPREMIUMMEMBER`, `IMAGE`, `CARD`) VALUES (:name, :password, :address, :email, :phone_number, 1, :ispremiummember, :image, :card);");
+
         $this->updateUserString = $this->con->prepare("UPDATE `USERS` SET `NAME`=:name, `PASSWORD`=:password, `ADDRESS`=:address, `EMAIL`=:email, `PHONE_NUMBER`=:phone, `RANK_ID`=:rank_id, `ISPREMIUMMEMBER`=:ispremiummember, `IMAGE`=:image WHERE `ID` = :id;");
 
         $this->deleteUserString = $this->con->prepare("DELETE FROM `USERS` WHERE `ID` = :id;");
 
         $this->getUserByIdString = $this->con->prepare("SELECT * FROM `USERS` WHERE `ID` = :id;");
+
         $this->getAllUserString = $this->con->prepare("SELECT * FROM `USERS`;");
     }
 
@@ -67,12 +71,20 @@ class UserDAO
     }
 }
 
-$user = new User();
-$user->Email("asd@asd.com")->Phone("123435435243")->Name("Kiss Pista")->Address("123 St Peter st, California")->Rank(1)->IsPremiumMember("asd")->Image("asdsadsadsadsad");
-$userDAO = new UserDAO();
+/*
+try
+{
+    $user = new User();
+    $user->Email("asd@asd.com")->Password("123")->Card("123123123123")->Phone("123435435243")->Name("Kiss Pista")->Address("123 St Peter st, California")->Rank(1)->IsPremiumMember("asd")->Image("asdsadsadsadsad");
+    $userDAO = new UserDAO();
 
-echo '<pre>';
-$userDAO->createUser($user);
+    $userDAO->createUser($user); // works
+}
+catch(Exception $e)
+{
+    echo $e->getMessage();
+}
+*/
 //print_r($userDAO->getUsers()); //THIS WORKS.
 //print_r( $userDAO->getUserById(3)); //works
 //$userDAO->updateUser($user); //works
