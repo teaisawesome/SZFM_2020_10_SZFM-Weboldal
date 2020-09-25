@@ -35,6 +35,12 @@ class Router
             $request->action = "authentication";
             $request->params = [$_POST['email'], $_POST['pwd']];
         }
+        if($url == $domain . 'logout')
+        {
+            $request->controller = "Home";
+            $request->action = "logout";
+            $request->params = "data";
+        }
 
 
     }

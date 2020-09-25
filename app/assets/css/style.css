@@ -4,6 +4,8 @@ h1
 }
 .container
 {
+    margin-top: 2rem !important;
+    padding: 2rem;
     border: 1px solid black;
     margin: 0 auto;
     width: 80%;

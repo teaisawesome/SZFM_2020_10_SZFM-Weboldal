@@ -7,9 +7,9 @@ class LoginController extends Controller
 {
     public function index()
     {
-        $this->view('template/header');
+        $this->view('templates/header');
         $this->view('loginpage');
-        $this->view('template/footer');
+        $this->view('templates/footer');
     }
 
     public function authentication($input)
