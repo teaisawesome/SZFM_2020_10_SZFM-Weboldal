@@ -1,9 +1,6 @@
 <?php
 
-define('ROOT', str_replace("database/UserDAO.php", "", $_SERVER["SCRIPT_FILENAME"]));
-
 require(ROOT . "/classes/User.php");
-require("Database.php");
 
 class UserDAO
 {
@@ -13,6 +10,7 @@ class UserDAO
     private $deleteUserString;
     private $getUserByIdString;
     private $getAllUserString;
+    private $auth;
 
     public function __construct()
     {
@@ -28,6 +26,8 @@ class UserDAO
         $this->getUserByIdString = $this->con->prepare("SELECT * FROM `USERS` WHERE `ID` = :id;");
 
         $this->getAllUserString = $this->con->prepare("SELECT * FROM `USERS`;");
+
+        $this->auth = $this->con->prepare("SELECT * FROM `USERS` WHERE `EMAIL`=:email AND `PASSWORD`=:password;");
     }
 
     public function createUser($user)
@@ -68,6 +68,15 @@ class UserDAO
         }
 
         return $users;
+    }
+
+    public function auth($email, $pwd)
+    {
+        $this->auth->execute([":email" => $email, ":password" => $pwd]);
+
+        $result = $this->auth->fetch(PDO::FETCH_ASSOC);
+
+        return $result > 0 ? true : false;
     }
 }
 
