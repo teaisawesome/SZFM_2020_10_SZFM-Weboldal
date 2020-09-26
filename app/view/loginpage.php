@@ -1,6 +1,6 @@
 <div class="container" style="padding: 2rem; margin-top: 2rem;">
     <form action="/SZFM_2020_10_SZFM-Weboldal/app/loginvalidation" method="post">
-        <h1>Login</h1>
+        <h1>Belépés</h1>
         <h3 style="color: brown"><?php
             if(isset($_SESSION['login_errors']['loginErrorMessage']))
             {
@@ -30,4 +30,3 @@
         <input class="btn btn-success" type="submit" value="Belépés">
     </form>
 </div>
-<div class="fasz"></div>

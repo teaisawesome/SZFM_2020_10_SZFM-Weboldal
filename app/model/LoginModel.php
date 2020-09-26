@@ -1,5 +1,4 @@
 <?php 
-    $root = 'D:/Programok/XAMPP/htdocs/SZFM_2020_10_SZFM-Weboldal/app/';
 
     require(ROOT . '/database/UserDAO.php');
 
@@ -34,17 +33,17 @@
 
         public function authentication($email, $password)
         {
-            $valid = true; $emailError = false; $passwordError = false; $loginError = false;
+            $valid = true; $loginErrors = array();
 
             if(!$this->emailValidation($email))
             {
-                $emailError = true;
+                $loginErrors['emailErrorMessage'] = 'Kérlek e-mail formátumot adj meg!';
                 $valid = false;
             }
 
             if(!$this->passwordValidation($password))
             {
-                $passwordError = true;
+                $loginErrors['passwordErrorMessage'] = 'A jelszó mező kitöltése kötelező!';
                 $valid = false;
             }
 
@@ -62,9 +61,9 @@
                     }
                     else
                     {
-                        $_SESSION['login_errors'] = array(
-                            "loginErrorMessage" => "Sikertelen bejelentkezés! Hibás e-mail vagy jelszó!"
-                        );
+                        $loginErrors['loginErrorMessage'] = 'Sikertelen bejelentkezés! Hibás e-mail vagy jelszó!';
+
+                        $_SESSION['login_errors'] = $loginErrors;
 
                         header("Location: http://localhost/SZFM_2020_10_SZFM-Weboldal/app/login");
 
@@ -77,10 +76,7 @@
             }
             else
             {
-                $_SESSION['login_errors'] = array(
-                    "emailErrorMessage" => "Kérlek e-mail formátumot adj meg!",
-                    "passwordErrorMessage" => "A jelszó mező kitöltése kötelező!"
-                );
+                $_SESSION['login_errors'] = $loginErrors;
                 
                 header("Location: http://localhost/SZFM_2020_10_SZFM-Weboldal/app/login");
             }
