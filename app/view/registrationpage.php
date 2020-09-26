@@ -1,10 +1,6 @@
-/**
- Név, cím, email, telefon, jelszó
-*/
-
 <div class="container" style="padding: 2rem; margin-top: 2rem;">
     <form action="/SZFM_2020_10_SZFM-Weboldal/app/registvalidation" method="post">
-        <h1>Regisztráció</h1>
+        <h1 style="color: #17a2b8">Regisztráció</h1>
         <h3 style="color: brown"><?php
             if(isset($_SESSION['regist_errors']['registErrorMessage']))
             {
@@ -62,6 +58,6 @@
             ?></p>
         </div>
 
-        <input class="btn btn-success" type="submit" value="Regisztáció">
+        <input class="btn btn-info" type="submit" value="Regisztáció">
     </form>
 </div>

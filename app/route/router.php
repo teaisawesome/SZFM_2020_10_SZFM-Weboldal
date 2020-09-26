@@ -23,6 +23,9 @@ class Router
             $request->params = "data";
         }
 
+        /**
+         *   Login routing
+         */
         if($url == $domain . 'login')
         {
             $request->controller = "Login";
@@ -41,6 +44,25 @@ class Router
             $request->action = "logout";
             $request->params = "data";
         }
+
+        /**
+         *  Registration routing
+         */
+        if($url == $domain . 'regist')
+        {
+            $request->controller = "Registration";
+            $request->action = "index";
+            $request->params = "data";
+        }
+
+        if($url == $domain . 'registvalidation')
+        {
+            $request->controller = "Registration";
+            $request->action = "registration";
+            $request->params = [$_POST['name'], $_POST['address'], $_POST['email'], $_POST['phone'], $_POST['pwd']];
+        }
+
+
 
 
     }
