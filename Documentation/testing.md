@@ -82,3 +82,31 @@ Mivel a weboldal vázához készített adatbázis megalkotásával jobban rálá
 ### 1.3.5 A tevékenységek összefoglalása:
 
 Az elkészült adatbázis szolgál a felhasználói adatok perzisztens tárolásáért, illetve a User és a UserDAO osztályok felhasználásával lehetséges az oldalra való regisztrálás, illetve a bejelentkezés.
+
+## 1.4 Teszt jegyzőkönyv azonosító: 04 MVC pattern kivitelezése a Bejelentkezés és Regisztráció funkciókon.
+
+### 1.4.1 Összefoglalás: 
+
+A projekt mappastruktúrájában szépen elkülönül az MVC (model-view-controller) hierarchia. A app/view mappában belül helyezkednek el azok a view oldalak, amelyek majd megjelenítésre kerülnek. Ezek mind php fileok így html és php backend oldali scriptek is elhelyezhetőek bennük. Így például egy form validációt is egyszerűen készre tudunk tervezni.
+
+Az app/controller mappába kaptak helyet a controller osztályok. Névkonvenciók alapján nagybetűvel kezdődik és benne kell szerepeljen, hogy Controller a filenévbe. pl.: HomeController.
+A controllerek vázát a Controller.php ősosztály szolgáltatja. Ebben egy view() metódus található, amely output buffer segítségével a view mappában keresve meghívja a paraméterként megkapott view-t. Lényegében megjelenítésért felelős.
+Az hogy épp melyik Controller hívódik meg az a routing/dispatcher.php dönti el. Ebben található egy dispatch() és egy loadController metódus. A dispatch() függvény a loadController által szolgáltatott controller objektum alapján meghívja a controller megfelelő actionjét, illetve átadja a paramétereket az actionnek. 
+A routing/router.php-ban találhatóak mindazon URI string illesztések, amelyek meghívják a controllerek megfelelő actionjét.
+Végül az app/model mappában találhatóak meg a modell osztályok. Ezeket is konvenció alapján nagy kezdőbetű és Controller címszó illet. pl.: LoginModel. Ezekben a php fileokban fogunk hivatkozni a különböző DAO fileokra, amelyek kezelik az adatbázis műveleteket. Ide írjuk továbbá az üzleti logikát, amely a funkcionalitások egészét adja. pl.: A RegistrationModel-ben található meg a registration($inputs) metódus, amely elvégzi a validáció pl.: hogy nem-e üres a get, post metódus által megkapott mező értékek. Ha minden stimmel akkor a UserDao alapján beinsertálja az adatbázisba a felhasználó adatait majd átirányítást végez. Ellenkező esetben, ha a validáció megbukik akkor a hibát munkamenetben eltároljuk, amely visszairányítva a regisztrációs oldalra megjelenítjük azokat.
+
+## 1.4.2 Általános értékelés:
+
+A mappastrukúra és az MVC architektúra kidolgozása egyszerű, de támogatja azon alap tulajdonságokat, amelyeket pl.: egy nagyobb php framework (Laravel, CodeIgniter) is nyújt. A munkát nagyban segíti ezen felépítés megléte.
+
+## 1.4.3 Eredmények összegzése:
+
+A routing megfelelően működik, viszont főbb funkciók továbbfejlesztésre szorulnak. pl.: opcionális paraméter lista. GET-es URI erőforrás azonosítók, paraméter stringek  dinamikus illesztése. A view, controller, model rendeltetésszerűen használható.
+
+## 1.4.4 Előrehaladás:
+
+A nagyprojektre a routing kibővítése és egy Model váz kialakítása nagyban megkönnyíti majd a jövőbeli munkákat.
+
+## 1.4.5 A tevékenységek összefoglalása:
+
+Az MVC pattern megírása, tanulmányozása során mélyebb betekintést nyertem, hogy hogyan is működhet egy nagyobb framework, amely az MVC-re építenek. Véleményem szerint a csapattársaimnak is hasznára vált ez a mappahierarchia, mely sokkal struktúráltabb és átláthatóbb projektet/kódot eredményezett. 
