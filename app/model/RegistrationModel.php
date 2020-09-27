@@ -101,7 +101,7 @@
 
                     unset($_SESSION['regist_errors']);
 
-                    header("Location: http://localhost/SZFM_2020_10_SZFM-Weboldal/app/login");
+                    header("Location: http://localhost/SZFM_2020_10_SZFM-Weboldal/app/");
                 }
                 catch(Exception $e)
                 {

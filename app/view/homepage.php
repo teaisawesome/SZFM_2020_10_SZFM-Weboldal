@@ -21,7 +21,7 @@
             <form action="registvalidation" method="post" style="margin:0;padding:0;">
                 <ul class="nav-links">
                     <li class="name-form">
-                        <a href="#">
+                        <a>
                             <input type="text" name="name" autocomplete="off" required />
                             <label for="name" class="label-name">
                                 <em class="content-name">Név</em>
@@ -30,7 +30,7 @@
                         </a>
                     </li>
                     <li class="address-form">
-                        <a href="#">
+                        <a>
                             <input type="text" name="address" autocomplete="off" required />
                             <label for="address" class="label-address">
                                 <em class="content-address">Cím</em>
@@ -39,7 +39,7 @@
                         </a>
                     </li>
                     <li class="password-form">
-                        <a href="#">
+                        <a>
                             <input type="password" name="pwd" autocomplete="off" required />
                             <label for="password" class="label-password">
                                 <em class="content-password">Jelszó</em>
@@ -48,7 +48,7 @@
                         </a>
                     </li>
                     <li class="email-form">
-                        <a href="#">
+                        <a>
                             <input type="text" name="email" autocomplete="off" required />
                             <label for="email" class="label-email">
                                 <em class="content-email">E-mail cím</em>
@@ -57,7 +57,7 @@
                         </a>
                     </li>
                     <li class="phone-form">
-                        <a href="#">
+                        <a>
                             <input type="text" name="phone" autocomplete="off" required />
                             <label for="phone" class="label-phone">
                                 <em class="content-phone">Telefonszám</em>
@@ -74,7 +74,7 @@
             <form action="loginvalidation" method="post" style="margin:0;padding:0;">
                 <ul class="nav-linksBel">
                     <li class="email-form">
-                        <a href="#">
+                        <a>
                             <input type="text" name="email" autocomplete="off" required />
                             <label for="email" class="label-email">
                                 <em class="content-email">E-mail cím</em>
@@ -84,8 +84,8 @@
                         
                     </li>
                     <li class="password-form">    
-                        <a href="#">
-                            <input type="text" name="pwd" autocomplete="off" required />
+                        <a>
+                            <input type="password" name="pwd" autocomplete="off" required />
                             <label for="password" class="label-password">
                                 <em class="content-password">Jelszó</em>
                                 <p class="loginErrorMessage"></p>

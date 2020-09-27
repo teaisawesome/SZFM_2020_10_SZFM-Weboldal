@@ -5,7 +5,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $this->view("index");
+        $this->view("homepage");
     }
 
     public function logout()
