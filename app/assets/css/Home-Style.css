@@ -1,19 +1,577 @@
 * {
     margin: 0;
-    padding: 0;
+    border: 0;
+    box-sizing: border-box;    
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+   /* justify-content: center; */
+
+}
+
+.loginErrorMessage{
+    position: relative;
+    left: 30%;
+    color: #94f7c0;
+}
+.loginErrorMessage{
+    position: relative;
+    left: 30%;
+    color: #94f7c0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    background-image: url("../../resources/images/level.png");
+    background-size: cover;
+}
+
+#szoveg{
+    left: 10%;
+}
+
+#szfm{
+    padding-left: 220px;
+    flex-direction: column;
+    align-items: flex-start;
+    vertical-align: center;
+    font-size: 4rem;
+    background: linear-gradient(to left, #004207, #06973e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+#egeszseg{
+    flex-direction: column;
+    align-items: flex-start;
+    vertical-align: center;
+    font-size: 3rem;
+    background: linear-gradient(to left, #004207, #06973e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*SZFM animacio*/
+span{
+    opacity: 0;
+    transition: all 0.5s ease;
+    transform: translateY(50px);
+    display: inline-block;
+}
+
+span.fade{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+/*animacio vege*/
+#regGomb{
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: linear-gradient(to left, #004207, #06973e);
+    text-shadow: 0 0 4px #004207, 0 0 8px #06973e;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+#belGomb{
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: linear-gradient(to left, #004207, #06973e);
+    text-shadow: 0 0 4px #004207, 0 0 8px #06973e;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+#logoKep{
+    height: 15vh;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.linkek {
+    display: flex;
+    width: 15%;
+    justify-content: space-around;   
+    list-style: none;
+}
+
+/* név reg */
+
+.name-form{
+    width: 50%;
+    position: relative;
+    height: 50px;
+    color: black;
+    overflow: hidden;
+}
+
+em{
+    color: black;
+}
+
+.name-form input{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #004207, #06973e);
+    color: #94f7c0;
+    font-size: x-large;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
+
+.name-form label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    
+    pointer-events: none;
+    border-bottom: 1px solid black
+}
+
+.name-form label::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #94f7c0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.content-name{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+.name-form input:focus + .label-name .content-name, 
+.name-form input:valid + .label-name .content-name{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #94f7c0;
+} 
+
+.name-form input:focus + .label-name::after, 
+.name-form input:valid + .label-name::after{
+    transform: translateX(0%);
+}
+/* nev reg vége */
+ /* Innen kezdem a reges felület többi részét */
+ .address-form{
+    width: 50%;
+    position: relative;
+    height: 50px;
+    color: black;
+    overflow: hidden;
+}
+
+em{
+    color: black;
+}
+
+.address-form input{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #004207, #06973e);
+    color: #94f7c0;
+    font-size: x-large;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
+
+.address-form label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black
+}
+
+.address-form label::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #94f7c0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.content-address{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+.address-form input:focus + .label-address .content-address, 
+.address-form input:valid + .label-address .content-address{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #94f7c0;
+} 
+
+.address-form input:focus + .label-address::after, 
+.address-form input:valid + .label-address::after{
+    transform: translateX(0%);
+}
+ /* idáig tart a reges felület többi része  /*
+ /* pw rész kezdet */
+ .password-form{
+    width: 50%;
+    position: relative;
+    height: 50px;
+    color: black;
+    overflow: hidden;
+}
+
+em{
+    color: black;
+}
+
+.password-form input{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #004207, #06973e);
+    color: #94f7c0;
+    font-size: x-large;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
+
+.password-form label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;  
+    pointer-events: none;
+    border-bottom: 1px solid black
+}
+
+.password-form label::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #94f7c0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.content-password{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+.password-form input:focus + .label-password .content-password, 
+.password-form input:valid + .label-password .content-password{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #94f7c0;
+} 
+
+.password-form input:focus + .label-password::after, 
+.password-form input:valid + .label-password::after{
+    transform: translateX(0%);
+}
+ /*pw rész vége */
+ /* e-mail kezdete*/
+ .email-form{
+    width: 50%;
+    position: relative;
+    height: 50px;
+    color: black;
+    overflow: hidden;
     
 }
-.flex-container{
-    width: 95%;
-    height: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
+
+em{
+    color: black;
+}
+
+.email-form input{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #004207, #06973e);
+    color: #94f7c0;
+    font-size: x-large;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
+
+.email-form label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;  
+    pointer-events: none;
+    border-bottom: 1px solid black
+
+}
+
+.email-form label::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #94f7c0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+
+}
+
+.content-email{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+.email-form input:focus + .label-email .content-email, 
+.email-form input:valid + .label-email .content-email{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #94f7c0;
+} 
+
+.email-form input:focus + .label-email::after, 
+.email-form input:valid + .label-email::after{
+    transform: translateX(0%);
+}
+/* e-mail vége */
+/* Telefonszam */
+.phone-form{
+    width: 50%;
+    position: relative;
+    height: 50px;
+    color: black;
+    overflow: hidden;
+}
+
+em{
+    color: black;
+}
+
+.phone-form input{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #004207, #06973e);
+    color: #94f7c0;
+    font-size: x-large;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
+
+.phone-form label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black
+}
+
+.phone-form label::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #94f7c0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.content-phone{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+.phone-form input:focus + .label-phone .content-phone, 
+.phone-form input:valid + .label-phone .content-phone{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #94f7c0;
+} 
+
+.phone-form input:focus + .label-phone::after, 
+.phone-form input:valid + .label-phone::after{
+    transform: translateX(0%);
+}
+/*End of Telefonszam*/
+/*Reg button */
+
+.nav-buttonReg{
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    position: relative;
+    display: block;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid black;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+    -webkit-background-clip: content-box;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.btn::before{
+    background: linear-gradient(to left, #004207, #06973e);
+    content: "";
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.regButton::before{
+    width: 100%;
+    height: 0;
+    transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+.regButton:hover::before{
+    height: 430%;
+}
+
+.belButton::before{
+    width: 100%;
+    height: 0;
+    transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+.belButton:hover::before{
+    height: 430%;
+}
+/* Reg button off */
+/* innen megjobban elbaszom */
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
+
+/*belepes navlink*/
+.nav-linksBel{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-linksBel li{
+    list-style: none;
+}
+
+.nav-linksBel a{
+    text-decoration: none;
+}
+/*eddig*/
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+/*burger 2 proba */
+.burger2{
+    display: none;
+    cursor: pointer;
+}
+/* burger2 eddig */
+
+/* .bureg #belepesGomb ( az eredeti hivatkozás  ) */
+#belepesGomb{
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: linear-gradient(to left, #004207, #06973e);
+    text-shadow: 0 0 4px #004207, 0 0 8px #06973e;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+ /* .bureg #regiszterGomb ( eredeti ) */
+#regiszterGomb{
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: linear-gradient(to left, #004207, #06973e);
+    text-shadow: 0 0 4px #004207, 0 0 8px #06973e;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.burger p{
+    transition: all 1s ease;
+}
+
+/*burger2 p proba*/
+.burger2 p{
+    transition: all 1s ease;
+}
+
+/*Dave kódja*/
+.flex-container{
+   /* width: 95%;
+    height: 80%; */
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    position: relative;
+    vertical-align: center;
+    margin-top: 1%;
+    
 
     /*border-width: 5px;
     border-color: red;
@@ -21,12 +579,37 @@
 
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.295), 0 17px 50px 0 rgba(0, 0, 0, 0.267);
     padding: 1.5%;
-    margin-bottom: 50%;
+    
     
     background: url('../../resources/images/Background1.jpg');
     background-size: cover;
-    background-position: bottom;
+  /*  background-position: bottom; */
 }
+
+.flex-container2{
+    /* width: 75%;
+     height: 80%; */
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     vertical-align: center;
+     position: relative;
+ 
+     /*border-width: 5px;
+     border-color: red;
+     border-style: solid;*/
+ 
+     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.295), 0 17px 50px 0 rgba(0, 0, 0, 0.267);
+     /*képek paddig*/
+     padding: 1.5%;
+     margin-top: 1%;
+ 
+     background: url('../../resources/images/Background2.jpg');
+     background-size: cover;
+     
+    /* left: 10%; */
+ }
+
 .container {
     position: relative;
     width: 23%;
@@ -79,7 +662,7 @@
     left: 11.5%;
     
 }
-p{
+#edz, #kal, #vas, #szol, #gal, #ceg, #kap{
     color: whitesmoke;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
@@ -89,12 +672,8 @@ p{
     margin-top: 55%;
     text-align: center;
     
-    /*border-width: 5px;
-    border-color: red;
-    border-style: solid;*/
 
-    position: relative;
-    
+    position: relative; 
 }
 /*Edzéterv Generátor Stílus*/
 .button1 {
@@ -148,29 +727,7 @@ p{
     color: #cccccce3;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.flex-container2{
-    width: 75%;
-    height: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 
-    /*border-width: 5px;
-    border-color: red;
-    border-style: solid;*/
-
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.295), 0 17px 50px 0 rgba(0, 0, 0, 0.267);
-    padding: 1.5%;
-    margin-top: 50%;
-
-
-    background: url('../../resources/images/Background2.jpg');
-    background-size: cover;
-    background-position: center;
-
-    position: relative;
-    left: 10%;
-}
 #BelowMenu{
     position: relative;
     width: 30%;
@@ -187,4 +744,97 @@ p{
     background-color: rgba(146, 89, 51, 0.945);
     color: #dddddd;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+
+@media  screen and (max-width: 1024px)
+{
+   .nav-links{
+        width: 60%;
+    }
+
+    .nav-linksBel{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1960px)
+{
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 70vh;
+        top: 30vh;
+        background-image: url("../../resources/images/level.png");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        z-index: 2;
+    }
+
+    .nav-linksBel{
+        position: absolute;
+        right: 0px;
+        height: 70vh;
+        top: 30vh;
+        background-image: url("../../resources/images/level.png");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        z-index: 2;
+    }
+
+    .nav-links li{
+        opacity: 0;
+    }
+
+    .nav-linksBel li{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+    /*burger2 display*/
+    .burger2{
+        display: block;
+    }
+}
+
+.nav-active{
+    transform:translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+/* regiszter toggle */
+
+.toggle .kettes{
+    transform: rotate(-180deg) translate(-5px,6px);
+}
+
+.toggle .egyes{
+    transform: rotate(-180deg) translate(5px,-6px);
 }
