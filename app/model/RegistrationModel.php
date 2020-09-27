@@ -22,7 +22,7 @@
 
         public function phoneNumberValidation($phone)
         {
-            if(preg_match("/^[0-9]{3}-[0-9]{4}-[0-9]{4}$/", $phone))
+            if(preg_match("/^[0-9]{4}-[0-9]{3}-[0-9]{4}$/", $phone))
             {
                 return true;
             }
