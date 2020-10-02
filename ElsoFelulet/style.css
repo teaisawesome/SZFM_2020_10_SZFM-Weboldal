@@ -1,0 +1,254 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Betűtípusok inportálása/elnevezése*/
+
+@font-face {
+    font-family: PopLight;
+    src: url(./Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: PopRegular;
+    src: url(./Poppins/Poppins-Regular.ttf);
+}
+
+body {
+    font-family: PopLight;
+    /*background: radial-gradient(rgb(236, 103, 7), rgb(187, 160, 160));*/
+    background-image: url("./img/teknos.jpg");
+    background-size: cover;
+}
+
+
+/*Középre tesszük a regisztrációs tartalmat*/
+
+.hatter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/*Játszunk kicsit az inputok közötti illesztésekkel*/
+
+.regisztracio-form-control {
+    position: relative;
+    /*placeholderek közötti hely*/
+    margin: 20px 0;
+    width: 567.79px;
+    padding-bottom: 20px;
+}
+
+
+/*placeholder config az inside rész*/
+
+.regisztracio-form-control input {
+    border: 0;
+    border-bottom: 4px solid #333333;
+    /*border-bottom alá helyezem*/
+    display: block;
+    font-family: PopRegular;
+    font-size: 18px;
+    padding: 10px 0px;
+    width: 100%;
+    transition: 0.2s ease-in;
+    opacity: 0.5;
+}
+
+
+/*focus-> amikopr az inputba kattint*/
+
+.regisztracio-form-control input:focus,
+.regisztracio-form-control input:valid {
+    border-bottom-color: darksalmon;
+    outline: none;
+}
+
+
+/*Az inputban lévő szöveget helyezem el*/
+
+.regisztracio-form-control label {
+    font-size: 18px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    opacity: 1;
+    text-shadow: 5px 0px 4px;
+}
+
+
+/*Itt ugrasztom fel*/
+
+.regisztracio-form-control input:focus+label span,
+
+/*Ott tartom amíg active az input mező ( required miatt )*/
+
+.regisztracio-form-control input:valid+label span {
+    color: darksalmon;
+    transform: translateY(-30px);
+}
+
+.regisztracio-form-control label span {
+    display: inline-block;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    /*ease is lehetne :) csak szerintem ez jobb volt */
+    /*A space miatt */
+    min-width: 5px;
+    font-size: 20px;
+}
+
+
+/*Regisztráció animáció*/
+
+
+/*
+#regisztracioAnimacio mask {
+    animation: fill 10 ease forwards 3s;
+}
+
+#regisztracioAnimacio path:nth-child(2) {
+    stroke-dasharray: 366;
+    stroke-dashoffset: 366;
+    animation: line-anim 2s ease forwards;
+}
+
+#regisztracioAnimacio path:nth-child(3) {
+    stroke-dasharray: 343;
+    stroke-dashoffset: 343;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+
+#regisztracioAnimacio path:nth-child(4) {
+    stroke-dasharray: 462;
+    stroke-dashoffset: 462;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+
+#regisztracioAnimacio path:nth-child(5) {
+    stroke-dasharray: 159;
+    stroke-dashoffset: 159;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+
+#regisztracioAnimacio path:nth-child(6) {
+    stroke-dasharray: 279;
+    stroke-dashoffset: 279;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+
+#regisztracioAnimacio path:nth-child(7) {
+    stroke-dasharray: 243;
+    stroke-dashoffset: 243;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+
+#regisztracioAnimacio path:nth-child(8) {
+    stroke-dasharray: 209;
+    stroke-dashoffset: 209;
+    animation: line-anim 2s ease forwards 1.8s;
+}
+
+#regisztracioAnimacio path:nth-child(9) {
+    stroke-dasharray: 164;
+    stroke-dashoffset: 164;
+    animation: line-anim 2s ease forwards 2.1s;
+}
+
+#regisztracioAnimacio path:nth-child(10) {
+    stroke-dasharray: 398;
+    stroke-dashoffset: 398;
+    animation: line-anim 2s ease forwards 2.4s;
+}
+
+#regisztracioAnimacio path:nth-child(11) {
+    stroke-dasharray: 265;
+    stroke-dashoffset: 265;
+    animation: line-anim 2s ease forwards 2.7s;
+}
+
+#regisztracioAnimacio path:nth-child(12) {
+    stroke-dasharray: 159;
+    stroke-dashoffset: 159;
+    animation: line-anim 2s ease forwards 3s;
+}
+
+#regisztracioAnimacio path:nth-child(13) {
+    stroke-dasharray: 350;
+    stroke-dashoffset: 350;
+    animation: line-anim 2s ease forwards 3.3s;
+}
+
+*/
+
+
+/*Meganimáljuk a vonalakat*/
+
+
+/*
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: black;
+    }
+}
+*/
+
+
+/*Reg anim vége*/
+
+
+/*Vizes szorakozas*/
+
+.content {
+    position: relative;
+}
+
+.content h1 {
+    position: absolute;
+    font-size: 5rem;
+    text-align: center;
+    transform: translateY(-120%);
+    left: 5%;
+}
+
+.content h1:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+}
+
+.content h1:nth-child(2) {
+    color: black;
+    text-shadow: 12px 0px 5px;
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0%,
+    100% {
+        clip-path: polygon(0 51%, 30% 53%, 46% 60%, 70% 65%, 71% 64%, 86% 60%, 100% 51%, 100% 100%, 0% 100%);
+    }
+    50% {
+        clip-path: polygon(0 64%, 16% 68%, 36% 72%, 67% 68%, 69% 56%, 84% 49%, 100% 50%, 100% 100%, 0% 100%);
+    }
+}
+
+
+/*clip path maker*/

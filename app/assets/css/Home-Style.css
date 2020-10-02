@@ -43,8 +43,8 @@ nav{
     vertical-align: center;
     font-size: 4rem;
     background: linear-gradient(to left, #004207, #06973e);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;   
+    background-clip: text;
+    color: transparent;   
 }
 
 #egeszseg{
@@ -53,7 +53,7 @@ nav{
     vertical-align: center;
     font-size: 3rem;
     background: linear-gradient(to left, #004207, #06973e);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
