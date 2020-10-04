@@ -19,6 +19,14 @@
     src: url(./Poppins/Poppins-Regular.ttf);
 }
 
+.alapok {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 33% auto 33%;
+    grid-template-rows: 10% auto 10% 10% 10%;
+    grid-template-areas: "regisztral regisztral regisztral" "sect1 sect2 sect3" "profil profil profil" "check check check" "regbutton regbutton regbutton";
+}
+
 body {
     font-family: PopLight;
     /*background: radial-gradient(rgb(236, 103, 7), rgb(187, 160, 160));*/
@@ -218,15 +226,19 @@ body {
 /*Vizes szorakozas*/
 
 .content {
+    display: grid;
+    /*grid-area: regisztral;*/
     position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 .content h1 {
     position: absolute;
     font-size: 5rem;
     text-align: center;
-    transform: translateY(-120%);
-    left: 5%;
+    /*transform: translateY(-120%);
+    left: 5%;*/
 }
 
 .content h1:nth-child(1) {

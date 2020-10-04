@@ -1,0 +1,457 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: PopLight;
+    src: url(./Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: PopRegular;
+    src: url(./Poppins/Poppins-Regular.ttf);
+}
+
+body {
+    font-family: PopLight;
+    display: grid;
+    /*Itt lehet a szazalekkal jatszani majd*/
+    grid-template-columns: 150%;
+    grid-template-rows: repeat(auto, 6);
+    grid-template-areas: "header" "sect1" "sect2" "sect3" "main" "footer";
+    background-image: url("./img/teknos.jpg");
+    background-size: cover;
+}
+
+.content {
+    display: grid;
+    grid-area: header;
+    justify-self: center;
+    align-self: center;
+}
+
+.content h1 {
+    display: grid;
+    grid-area: header;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.content h1:nth-child(1) {
+    display: grid;
+    grid-area: header;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+}
+
+.content h1:nth-child(2) {
+    display: grid;
+    grid-area: header;
+    color: black;
+    text-shadow: 12px 0px 5px;
+    animation: animate 4s ease-in-out infinite;
+}
+
+section:nth-of-type(1) {
+    grid-area: sect1;
+}
+
+section:nth-of-type(2) {
+    display: grid;
+    justify-content: center;
+    grid-area: sect2;
+}
+
+section:nth-of-type(3) {
+    grid-area: sect3;
+}
+
+main {
+    display: grid;
+    grid-area: main;
+}
+
+
+/*Button meganimálása*/
+
+button {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    /*saját*/
+    background: transparent;
+    border: 0;
+    font-family: PoppinRegular;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    box-shadow: 0 0 10px darksalmon, 0 0 40px darksalmon, 0 0 80px darksalmon;
+    background-color: darksalmon;
+    transition-delay: 2s;
+}
+
+button span {
+    position: absolute;
+    display: block;
+}
+
+button span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, darksalmon);
+}
+
+button:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+button span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(270deg, transparent, darksalmon);
+}
+
+button:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0s;
+}
+
+button span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, darksalmon);
+}
+
+button:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, darksalmon);
+}
+
+button:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+
+/*Button meganimálásának a vége*/
+
+footer {
+    grid-area: footer;
+    background-color: green;
+}
+
+.regisztracio-form-control {
+    position: relative;
+    /*placeholderek közötti hely*/
+    margin: 20px 0;
+    width: 500px;
+    padding-bottom: 20px;
+}
+
+
+/*placeholder config az inside rész*/
+
+.regisztracio-form-control input {
+    border: 0;
+    border-bottom: 4px solid #333333;
+    /*border-bottom alá helyezem*/
+    display: block;
+    font-family: PopRegular;
+    font-size: 18px;
+    padding: 10px 0px;
+    width: 100%;
+    transition: 0.3s ease-in;
+    opacity: 0.5;
+}
+
+
+/*focus-> amikopr az inputba kattint*/
+
+.regisztracio-form-control input:focus,
+.regisztracio-form-control input:valid {
+    border-bottom-color: darksalmon;
+    outline: none;
+}
+
+
+/*Az inputban lévő szöveget helyezem el*/
+
+.regisztracio-form-control label {
+    font-size: 18px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    opacity: 1;
+    /*text-shadow: 5px 0px 4px;*/
+}
+
+
+/*Itt ugrasztom fel*/
+
+.regisztracio-form-control input:focus+label span,
+
+/*Ott tartom amíg active az input mező ( required miatt )*/
+
+.regisztracio-form-control input:valid+label span {
+    color: darksalmon;
+    transform: translateY(-30px);
+}
+
+.regisztracio-form-control label span {
+    display: inline-block;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    /*ease is lehetne :) csak szerintem ez jobb volt */
+    /*A space miatt */
+    min-width: 5px;
+    font-size: 20px;
+}
+
+
+/*type file input*/
+
+section:nth-of-type(3) {
+    display: grid;
+    grid-area: sect3;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.image-preview {
+    width: 300px;
+    min-height: 100px;
+    border: 2px solid black;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: black;
+    /* text-shadow: 3px 0 5px; */
+}
+
+.image-preview__image {
+    display: none;
+    width: 100%;
+}
+
+input#inpFile {
+    display: none;
+}
+
+#browse {
+    position: relative;
+    display: inline-block;
+    padding: 0px 5px;
+    color: black;
+    /*text-shadow: 4px 0px 14px;*/
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    overflow: hidden;
+    transition: 0.2s;
+    background: transparent;
+    border: 0;
+    font-family: PoppinRegular;
+    width: 88%;
+    height: 15%;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+#browse:hover {
+    color: black;
+    box-shadow: 0 0 10px darksalmon, 0 0 40px darksalmon, 0 0 80px darksalmon;
+    background: darksalmon;
+    transition-delay: 0.2s;
+    opacity: 0.9;
+}
+
+#browse span {
+    position: absolute;
+    display: block;
+}
+
+#browse span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, darksalmon);
+}
+
+#browse:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+#browse span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(270deg, transparent, darksalmon);
+}
+
+#browse:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5;
+}
+
+#browse span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, darksalmon);
+}
+
+#browse:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25;
+}
+
+#browse span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, darksalmon);
+}
+
+#browse:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75;
+}
+
+
+/*file input vége*/
+
+
+/*Checkbox design kezdet*/
+
+section:nth-of-type(1) {
+    display: grid;
+    grid-area: sect1;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+}
+
+.elofizet p {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.elofizet #checkboxLabel {
+    position: relative;
+}
+
+.elofizet #checkboxLabel input {
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.elofizet #checkboxLabel .fa {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #091921;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 4px;
+    color: #6f6f6f;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1), 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.elofizet #checkboxLabel .fa:hover {
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1), 2px 2px 6px rgba(0, 0, 0, 0.8), inset -2px -2px 10px rgba(255, 255, 255, 0.05), inset 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.elofizet #checkboxLabel input:checked~.fa {
+    color: darksalmon;
+    box-shadow: inset -1px -1px 3px rgba(255, 255, 255, 0.1), inset 2px 2px 6px rgba(0, 0, 0, 1);
+    text-shadow: 0 0 5px darksalmon, 0 0 20px darksalmon;
+}
+
+
+/*Checkbox vége*/
+
+@keyframes animate {
+    0%,
+    100% {
+        clip-path: polygon(0 51%, 30% 53%, 46% 60%, 70% 65%, 71% 64%, 86% 60%, 100% 51%, 100% 100%, 0% 100%);
+    }
+    50% {
+        clip-path: polygon(0 64%, 16% 68%, 36% 72%, 67% 68%, 69% 56%, 84% 49%, 100% 50%, 100% 100%, 0% 100%);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        display: grid;
+        margin: 0;
+        grid-template-columns: auto auto auto;
+        /* grid-template-columns: 33% auto 33%; az eredeti  */
+        grid-template-rows: 10% auto auto 10%;
+        grid-template-areas: "header header header" "sect1 sect2 sect3" "main main main" "footer footer footer";
+    }
+    section:nth-of-type(1) {
+        display: grid;
+        grid-area: sect1;
+        width: 0%;
+    }
+    section:nth-of-type(2) {
+        display: grid;
+        grid-area: sect2;
+        width: 100%;
+    }
+    section:nth-of-type(3) {
+        grid-area: sect3;
+        width: 0%;
+    }
+    .content {
+        display: grid;
+        grid-area: header;
+    }
+}

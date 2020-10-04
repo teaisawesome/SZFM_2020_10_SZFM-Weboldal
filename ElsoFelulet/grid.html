@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="biztonsag.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>GridCrash</title>
+</head>
+
+<body>
+    <header class="content">
+        <h1>Regisztráció</h1>
+        <h1>Regisztráció</h1>
+    </header>
+    <section>
+        <div class="elofizet">
+            <p>Előfizet az extra szolgáltatásra?</p>
+            <div>
+                <label id="checkboxLabel">
+                    <input type="radio" name="pay">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                </label>
+                <label id="checkboxLabel">
+                    <input type="radio" name="pay">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </label>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="regisztracio-form-control">
+            <!--Vezeteknev-->
+            <input type="text" required>
+            <label for="">*Vezetéknév</label>
+        </div>
+        <!--Keresztnev-->
+        <div class="regisztracio-form-control">
+            <input type="text" required>
+            <label for="">*Keresztnév</label>
+        </div>
+        <div class="regisztracio-form-control">
+            <!--Jelszo-->
+            <input type="password" required>
+            <label for="">*Jelszó</label>
+        </div>
+        <div class="regisztracio-form-control">
+            <!--E-mail cím-->
+            <input type="text" required>
+            <label for="">*E-mail cím</label>
+        </div>
+        <div class="regisztracio-form-control">
+            <!--Cím-->
+            <input type="text" required>
+            <label for="">*Lakcím</label>
+        </div>
+        <div class="regisztracio-form-control">
+            <!--Telefonszám-->
+            <input type="text" required>
+            <label for="">*Telefonszám</label>
+        </div>
+    </section>
+    <section>
+        <div class="feltoltes">
+            <!--  <button>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span> Profilkép Feltöltése
+        </button> -->
+            <input type="file" name="inpFile" id="inpFile">
+            <label for="inpFile" id="browse">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Profilkép kiválasztása...</label>
+            <div class="image-preview" id="imagePreview">
+                <img src="" alt="Image Preview" class="image-preview__image">
+                <span class="image-preview__default-text">Profilkép Feltöltése</span>
+            </div>
+        </div>
+    </section>
+    <main>
+        <!--
+        <div class="feltoltes">
+            <button> innen
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span> Profilkép Feltöltése idáig is
+        </button> 
+            <input type="file" name="inpFile" id="inpFile">
+            <label for="inpFile" id="browse">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Profilkép kiválasztása</label>
+            <div class="image-preview" id="imagePreview">
+                <img src="" alt="Image Preview" class="image-preview__image">
+                <span class="image-preview__default-text">Profilkép Feltöltése</span>
+            </div>
+        </div> -->
+    </main>
+    <footer></footer>
+    <script src="./anime.min.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
