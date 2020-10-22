@@ -83,7 +83,14 @@ A W3C nem az egyetlen olyan szervezet volt, mely szabványokat hozott létre az 
 + **6.1** Responzív dizánj
 + **6.2** Egyszerű felület
 + **6.3** Informatív felület
-+ **6.4** Regisztrációs felület
++ **6.4** Belépés felület
++ **6.5** Regisztrációs felület
++ **6.6** Naptár modul és felület
++ **6.7** Regisztrációs felület
++ **6.8** Galléria
++ **6.9** Kezdőlap
++ **6.10** Profil oldal
++ **6.11** Szolgáltatások oldal
 
 ## 7. Irányított és szabad szöveges riportok szövege. 
 A megválaszolatlan kérdéseket majd élőben feltesszük.
